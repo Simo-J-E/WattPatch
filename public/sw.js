@@ -1,4 +1,4 @@
-const CACHE = "wattpatch-v1";
+const CACHE = "wattpatch-v2-full-catalog";
 const scopeUrl = new URL("./", self.registration.scope).toString();
 
 self.addEventListener("install", (event) => {

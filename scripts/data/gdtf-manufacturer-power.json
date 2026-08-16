@@ -1,0 +1,2942 @@
+[
+  {
+    "manufacturer": "AML Lighting",
+    "model": "Aero 600BSW IP",
+    "power": 850.0,
+    "uuid": "FBDE0CCD-71BA-442B-805F-7022AC48096B",
+    "rid": "146071",
+    "uploader": "Manuf.",
+    "revisionDate": 1780988101,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FBDE0CCD-71BA-442B-805F-7022AC48096B"
+  },
+  {
+    "manufacturer": "Astera LED Technology",
+    "model": "AX5 TriplePAR",
+    "power": 230.0,
+    "uuid": "553B3D07-9437-4085-A852-1239242A20DD",
+    "rid": "62995",
+    "uploader": "Manuf.",
+    "revisionDate": 1714478386,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=553B3D07-9437-4085-A852-1239242A20DD"
+  },
+  {
+    "manufacturer": "Astera LED Technology",
+    "model": "AX9 PowerPAR",
+    "power": 110.0,
+    "uuid": "BB8DEE4B-A7BA-4896-8247-E6164A4E949C",
+    "rid": "62996",
+    "uploader": "Manuf.",
+    "revisionDate": 1714478477,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BB8DEE4B-A7BA-4896-8247-E6164A4E949C"
+  },
+  {
+    "manufacturer": "Astera LED Technology",
+    "model": "FP7 LunaBulb",
+    "power": 4.25,
+    "uuid": "9A22FD62-FA35-4FC0-8E89-A1171CD559A5",
+    "rid": "73851",
+    "uploader": "Manuf.",
+    "revisionDate": 1726719083,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9A22FD62-FA35-4FC0-8E89-A1171CD559A5"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Bora",
+    "power": 1150.0,
+    "uuid": "909FFF22-C13F-4FB0-ADF6-021DF77890E0",
+    "rid": "149928",
+    "uploader": "Manuf.",
+    "revisionDate": 1783418991,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=909FFF22-C13F-4FB0-ADF6-021DF77890E0"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Cobra",
+    "power": 480.0,
+    "uuid": "E4F96447-2A9B-47B8-B7DA-BC4AFB17F276",
+    "rid": "149929",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419137,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E4F96447-2A9B-47B8-B7DA-BC4AFB17F276"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Diablo",
+    "power": 550.0,
+    "uuid": "DCE7AA4F-2147-4B6A-9607-15A09D692A6F",
+    "rid": "149930",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419350,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=DCE7AA4F-2147-4B6A-9607-15A09D692A6F"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Domino LT",
+    "power": 1600.0,
+    "uuid": "957BB5A1-E15D-4A04-B935-742D039656AE",
+    "rid": "149932",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419445,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=957BB5A1-E15D-4A04-B935-742D039656AE"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Domino Wash",
+    "power": 1600.0,
+    "uuid": "22EF044F-39B3-4F4C-8E1C-F58F904A947B",
+    "rid": "149936",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419625,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=22EF044F-39B3-4F4C-8E1C-F58F904A947B"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Eurus",
+    "power": 1000.0,
+    "uuid": "AE9A256A-A35D-4B4C-9347-4974227836AC",
+    "rid": "149938",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419805,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AE9A256A-A35D-4B4C-9347-4974227836AC"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Ghibli",
+    "power": 800.0,
+    "uuid": "2E7392E6-03F5-423B-85C0-7A1B4BBB99CD",
+    "rid": "149939",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419900,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=2E7392E6-03F5-423B-85C0-7A1B4BBB99CD"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Huracan LT",
+    "power": 1470.0,
+    "uuid": "20F4CDBD-FF35-4614-BEA9-F30D957D6A78",
+    "rid": "149941",
+    "uploader": "Manuf.",
+    "revisionDate": 1783419982,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=20F4CDBD-FF35-4614-BEA9-F30D957D6A78"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Huracan Profile",
+    "power": 1470.0,
+    "uuid": "F2BBE7F1-4C18-4F1D-BBCF-016F52053C80",
+    "rid": "149942",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420057,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F2BBE7F1-4C18-4F1D-BBCF-016F52053C80"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Huracan Wash",
+    "power": 1470.0,
+    "uuid": "040D78B1-9755-494B-998B-F401160EACB5",
+    "rid": "149943",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420135,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=040D78B1-9755-494B-998B-F401160EACB5"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Karif",
+    "power": 550.0,
+    "uuid": "C501563B-D95B-4245-BD84-271867EE1C47",
+    "rid": "149944",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420242,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C501563B-D95B-4245-BD84-271867EE1C47"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Khamsin",
+    "power": 1150.0,
+    "uuid": "4B9CC2AC-8EEC-45A6-AF75-928E745744A7",
+    "rid": "149945",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420329,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=4B9CC2AC-8EEC-45A6-AF75-928E745744A7"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Levante",
+    "power": 550.0,
+    "uuid": "E119B052-ECC0-4C1B-83BC-1477B3A78BB1",
+    "rid": "149947",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420470,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E119B052-ECC0-4C1B-83BC-1477B3A78BB1"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "MagicBlade FX",
+    "power": 400.0,
+    "uuid": "26415B57-5E6F-4241-BA12-ACD9E13D8643",
+    "rid": "133912",
+    "uploader": "Manuf.",
+    "revisionDate": 1773794922,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=26415B57-5E6F-4241-BA12-ACD9E13D8643"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "MagicBlade R",
+    "power": 200.0,
+    "uuid": "4B235777-468E-4CE0-8444-B1605CB8DAE1",
+    "rid": "133940",
+    "uploader": "Manuf.",
+    "revisionDate": 1773804276,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=4B235777-468E-4CE0-8444-B1605CB8DAE1"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "MagicPanel FX",
+    "power": 1000.0,
+    "uuid": "D20698F0-142D-49EF-A284-1F4EA61BCBD7",
+    "rid": "149953",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420791,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D20698F0-142D-49EF-A284-1F4EA61BCBD7"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Merak",
+    "power": 400.0,
+    "uuid": "6B5C187E-594B-412D-A1CC-2EF62F588A41",
+    "rid": "149957",
+    "uploader": "Manuf.",
+    "revisionDate": 1783420950,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6B5C187E-594B-412D-A1CC-2EF62F588A41"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Mistral",
+    "power": 550.0,
+    "uuid": "B202AAD1-2AB8-4750-AD77-A01EECDA5F75",
+    "rid": "149960",
+    "uploader": "Manuf.",
+    "revisionDate": 1783421125,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B202AAD1-2AB8-4750-AD77-A01EECDA5F75"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Perseo BEAM",
+    "power": 700.0,
+    "uuid": "189F927F-F925-409C-87A9-07FC2B10F297",
+    "rid": "149966",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422058,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=189F927F-F925-409C-87A9-07FC2B10F297"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "RawBeam 350",
+    "power": 660.0,
+    "uuid": "21B6FB71-5973-4186-B395-C9526EF1CD6E",
+    "rid": "149969",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422219,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=21B6FB71-5973-4186-B395-C9526EF1CD6E"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Rivale Profile",
+    "power": 750.0,
+    "uuid": "159972D3-4E9C-48B2-9840-B912F7547FB9",
+    "rid": "149970",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422296,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=159972D3-4E9C-48B2-9840-B912F7547FB9"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Rivale Wash",
+    "power": 700.0,
+    "uuid": "EE8F9825-151E-449A-8549-924230953BA6",
+    "rid": "149971",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422356,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EE8F9825-151E-449A-8549-924230953BA6"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Stradale Profile",
+    "power": 580.0,
+    "uuid": "A1B400D7-16B3-433B-8B0A-58AAD90E653E",
+    "rid": "149972",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422412,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A1B400D7-16B3-433B-8B0A-58AAD90E653E"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Veloce Profile",
+    "power": 1300.0,
+    "uuid": "77B52872-EC62-4A3E-84AE-59B25DFAE183",
+    "rid": "149973",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422474,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=77B52872-EC62-4A3E-84AE-59B25DFAE183"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Veloce Wash",
+    "power": 1300.0,
+    "uuid": "CA0596A3-69FC-4927-B255-FB239EF319F4",
+    "rid": "149974",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422523,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CA0596A3-69FC-4927-B255-FB239EF319F4"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Zonda 3 FX",
+    "power": 400.0,
+    "uuid": "D7B578E3-E689-4B8B-8467-FCF5A1B74D3F",
+    "rid": "149975",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422647,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D7B578E3-E689-4B8B-8467-FCF5A1B74D3F"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Zonda 3 WASH",
+    "power": 400.0,
+    "uuid": "D77BD04D-F332-49CB-A041-7DDA2B8BE0A1",
+    "rid": "149976",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422749,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D77BD04D-F332-49CB-A041-7DDA2B8BE0A1"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Zonda 9 FX",
+    "power": 1400.0,
+    "uuid": "BF8D15A6-0127-4EFA-987E-8C47CB47E2A7",
+    "rid": "149977",
+    "uploader": "Manuf.",
+    "revisionDate": 1783422980,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BF8D15A6-0127-4EFA-987E-8C47CB47E2A7"
+  },
+  {
+    "manufacturer": "Ayrton",
+    "model": "Zonda 9 WASH",
+    "power": 1400.0,
+    "uuid": "ECF27D47-7B58-4465-B3E9-B11BDB279A46",
+    "rid": "149979",
+    "uploader": "Manuf.",
+    "revisionDate": 1783423187,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=ECF27D47-7B58-4465-B3E9-B11BDB279A46"
+  },
+  {
+    "manufacturer": "BeamZ",
+    "model": "BS 1200",
+    "power": 60.0,
+    "uuid": "DF7A4BBF-43AA-46D5-AF85-BDA9EEDBE4AA",
+    "rid": "141192",
+    "uploader": "Manuf.",
+    "revisionDate": 1777758612,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=DF7A4BBF-43AA-46D5-AF85-BDA9EEDBE4AA"
+  },
+  {
+    "manufacturer": "BeamZ",
+    "model": "Hyaden",
+    "power": 415.0,
+    "uuid": "60E39AAF-14DC-4903-9A32-D804496C717F",
+    "rid": "155758",
+    "uploader": "Manuf.",
+    "revisionDate": 1786838233,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=60E39AAF-14DC-4903-9A32-D804496C717F"
+  },
+  {
+    "manufacturer": "BeamZ Pro",
+    "model": "Ignite300BSW",
+    "power": 850.0,
+    "uuid": "9C55EFAA-86A3-4750-92F1-D900F3A38AAB",
+    "rid": "121917",
+    "uploader": "Manuf.",
+    "revisionDate": 1766313324,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9C55EFAA-86A3-4750-92F1-D900F3A38AAB"
+  },
+  {
+    "manufacturer": "BeamZ Pro",
+    "model": "Ignite400BSW",
+    "power": 850.0,
+    "uuid": "15C57822-40F2-4AF6-9024-E2BC5786C4D1",
+    "rid": "121839",
+    "uploader": "Manuf.",
+    "revisionDate": 1766176048,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=15C57822-40F2-4AF6-9024-E2BC5786C4D1"
+  },
+  {
+    "manufacturer": "BeamZ Pro",
+    "model": "Nereid 500",
+    "power": 850.0,
+    "uuid": "3DC17E70-CBE7-43DC-AD3E-764934CB0CCA",
+    "rid": "123573",
+    "uploader": "Manuf.",
+    "revisionDate": 1767701186,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3DC17E70-CBE7-43DC-AD3E-764934CB0CCA"
+  },
+  {
+    "manufacturer": "BeamZ Pro",
+    "model": "Tiger 7RC",
+    "power": 850.0,
+    "uuid": "A1147C7C-466B-47A7-A2B0-CB31C7F6224E",
+    "rid": "121654",
+    "uploader": "Manuf.",
+    "revisionDate": 1766054911,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A1147C7C-466B-47A7-A2B0-CB31C7F6224E"
+  },
+  {
+    "manufacturer": "BeamZ Pro",
+    "model": "Tiger 9R",
+    "power": 850.0,
+    "uuid": "983FFC4C-C6B3-4E90-86CE-F87629AAB8D4",
+    "rid": "121656",
+    "uploader": "Manuf.",
+    "revisionDate": 1766055044,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=983FFC4C-C6B3-4E90-86CE-F87629AAB8D4"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "139562",
+    "uploader": "Manuf.",
+    "revisionDate": 1776753630,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "128042",
+    "uploader": "Manuf.",
+    "revisionDate": 1770626168,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "134463",
+    "uploader": "Manuf.",
+    "revisionDate": 1773993381,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "126736",
+    "uploader": "Manuf.",
+    "revisionDate": 1769756578,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "126595",
+    "uploader": "Manuf.",
+    "revisionDate": 1769670545,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "129770",
+    "uploader": "Manuf.",
+    "revisionDate": 1771599112,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "128054",
+    "uploader": "Manuf.",
+    "revisionDate": 1770634956,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "128221",
+    "uploader": "Manuf.",
+    "revisionDate": 1770711732,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "128447",
+    "uploader": "Manuf.",
+    "revisionDate": 1770801238,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "128055",
+    "uploader": "Manuf.",
+    "revisionDate": 1770635764,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BETOPPER",
+    "model": "LM120",
+    "power": 850.0,
+    "uuid": "C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E",
+    "rid": "123682",
+    "uploader": "Manuf.",
+    "revisionDate": 1767774017,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0B25AB6-5B2F-4C25-A2E1-57F0018F7D0E"
+  },
+  {
+    "manufacturer": "BOS Lighting",
+    "model": "Amadeus H250",
+    "power": 850.0,
+    "uuid": "5FEB5332-6EE0-478E-9243-0C900DD84B6D",
+    "rid": "97912",
+    "uploader": "Manuf.",
+    "revisionDate": 1748164856,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5FEB5332-6EE0-478E-9243-0C900DD84B6D"
+  },
+  {
+    "manufacturer": "BOS Lighting",
+    "model": "HP7 QUAD 350",
+    "power": 220.0,
+    "uuid": "F9342288-146D-4552-8B6D-1EE1AEBDDF97",
+    "rid": "41191",
+    "uploader": "Manuf.",
+    "revisionDate": 1686322937,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F9342288-146D-4552-8B6D-1EE1AEBDDF97"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Atom R",
+    "power": 450.0,
+    "uuid": "17ABA7EA-CFDF-426D-9E68-FF479194C0B7",
+    "rid": "73109",
+    "uploader": "Manuf.",
+    "revisionDate": 1725877992,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=17ABA7EA-CFDF-426D-9E68-FF479194C0B7"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Atom R+",
+    "power": 450.0,
+    "uuid": "3C63BE5E-4CC7-49A4-8853-3612F7E26D56",
+    "rid": "73108",
+    "uploader": "Manuf.",
+    "revisionDate": 1725877677,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3C63BE5E-4CC7-49A4-8853-3612F7E26D56"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Atom S",
+    "power": 480.0,
+    "uuid": "C392BF78-ED93-43D8-B948-41AD577B0A61",
+    "rid": "141673",
+    "uploader": "Manuf.",
+    "revisionDate": 1778130851,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C392BF78-ED93-43D8-B948-41AD577B0A61"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Atom Splus",
+    "power": 480.0,
+    "uuid": "0AD68550-575C-4E72-9E1C-C5F1A53F6767",
+    "rid": "94925",
+    "uploader": "Manuf.",
+    "revisionDate": 1745839890,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0AD68550-575C-4E72-9E1C-C5F1A53F6767"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Atom T",
+    "power": 480.0,
+    "uuid": "D2169AE7-BA38-4940-8A89-548280CD5D93",
+    "rid": "94597",
+    "uploader": "Manuf.",
+    "revisionDate": 1745488809,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D2169AE7-BA38-4940-8A89-548280CD5D93"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Deco RGB",
+    "power": 800.0,
+    "uuid": "48482AEB-6B5B-4A67-8D0A-167D4200D80D",
+    "rid": "73203",
+    "uploader": "Manuf.",
+    "revisionDate": 1725950810,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=48482AEB-6B5B-4A67-8D0A-167D4200D80D"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Eye 1500 PRO",
+    "power": 850.0,
+    "uuid": "AC10919D-4670-48B7-AB20-EC943DF27ABC",
+    "rid": "73202",
+    "uploader": "Manuf.",
+    "revisionDate": 1725950630,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC10919D-4670-48B7-AB20-EC943DF27ABC"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 100",
+    "power": 150.0,
+    "uuid": "68B59B17-BC21-486D-A151-B531A842BBBC",
+    "rid": "76276",
+    "uploader": "Manuf.",
+    "revisionDate": 1729226555,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=68B59B17-BC21-486D-A151-B531A842BBBC"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 200",
+    "power": 250.0,
+    "uuid": "0D3A973C-90B5-4ABF-B619-1E88FD99ED24",
+    "rid": "73193",
+    "uploader": "Manuf.",
+    "revisionDate": 1725947319,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0D3A973C-90B5-4ABF-B619-1E88FD99ED24"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 200 Color",
+    "power": 250.0,
+    "uuid": "16DE0704-A6C6-4615-A88B-E2951B26D793",
+    "rid": "73194",
+    "uploader": "Manuf.",
+    "revisionDate": 1725947395,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=16DE0704-A6C6-4615-A88B-E2951B26D793"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 200 CTO",
+    "power": 250.0,
+    "uuid": "74FE14B8-49B0-4876-ACDB-798919033776",
+    "rid": "73196",
+    "uploader": "Manuf.",
+    "revisionDate": 1725947568,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=74FE14B8-49B0-4876-ACDB-798919033776"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 300",
+    "power": 250.0,
+    "uuid": "E92F9F6A-C928-45D5-B551-53968C16122A",
+    "rid": "73195",
+    "uploader": "Manuf.",
+    "revisionDate": 1725947469,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E92F9F6A-C928-45D5-B551-53968C16122A"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "FW 300plus",
+    "power": 250.0,
+    "uuid": "10E2E1E6-B899-4F48-AD89-B4D69A80FD1C",
+    "rid": "78543",
+    "uploader": "Manuf.",
+    "revisionDate": 1731663330,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=10E2E1E6-B899-4F48-AD89-B4D69A80FD1C"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Pixel Strobe",
+    "power": 30.0,
+    "uuid": "B88F6A83-7388-4CF0-8946-241EAE903077",
+    "rid": "110457",
+    "uploader": "Manuf.",
+    "revisionDate": 1757652620,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B88F6A83-7388-4CF0-8946-241EAE903077"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Pro Bar 18 IP",
+    "power": 330.0,
+    "uuid": "D921B6D6-6648-4621-8D0E-F62F3E7A58D5",
+    "rid": "98327",
+    "uploader": "Manuf.",
+    "revisionDate": 1748513738,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D921B6D6-6648-4621-8D0E-F62F3E7A58D5"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "PRO PAR  9BTIP",
+    "power": 130.0,
+    "uuid": "0C4565AF-F1EC-4D31-9D94-C61E06F955F1",
+    "rid": "73130",
+    "uploader": "Manuf.",
+    "revisionDate": 1725882600,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0C4565AF-F1EC-4D31-9D94-C61E06F955F1"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "PRO PAR 12BTIP",
+    "power": 30.0,
+    "uuid": "3AFD1A4D-42A2-43E3-B776-9CE25513ACA8",
+    "rid": "73127",
+    "uploader": "Manuf.",
+    "revisionDate": 1725882168,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3AFD1A4D-42A2-43E3-B776-9CE25513ACA8"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Pro Par 12IP",
+    "power": 144.0,
+    "uuid": "44CCE3C9-CF6D-4CBF-AD66-1837E3E3455F",
+    "rid": "73181",
+    "uploader": "Manuf.",
+    "revisionDate": 1725944747,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=44CCE3C9-CF6D-4CBF-AD66-1837E3E3455F"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Pro Par 18IP",
+    "power": 216.0,
+    "uuid": "7D98B800-A9E8-4F11-AE77-3AE6FA6C37B6",
+    "rid": "73182",
+    "uploader": "Manuf.",
+    "revisionDate": 1725945090,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7D98B800-A9E8-4F11-AE77-3AE6FA6C37B6"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Profile 180 CTO",
+    "power": 200.0,
+    "uuid": "F920EF62-BCE2-498D-8737-8635CE6B9FC8",
+    "rid": "73189",
+    "uploader": "Manuf.",
+    "revisionDate": 1725946067,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F920EF62-BCE2-498D-8737-8635CE6B9FC8"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Profile 200",
+    "power": 250.0,
+    "uuid": "16827975-C0A4-4D1D-BF1F-CF766287AAEE",
+    "rid": "73186",
+    "uploader": "Manuf.",
+    "revisionDate": 1725945925,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=16827975-C0A4-4D1D-BF1F-CF766287AAEE"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Profile 200",
+    "power": 250.0,
+    "uuid": "A8DC42DD-7091-4527-872E-BFB2B2F6E26E",
+    "rid": "73187",
+    "uploader": "Manuf.",
+    "revisionDate": 1725946011,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A8DC42DD-7091-4527-872E-BFB2B2F6E26E"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Profile 200 RGBW",
+    "power": 250.0,
+    "uuid": "CAC86676-E386-41A9-86BB-F45D9C7684AB",
+    "rid": "73184",
+    "uploader": "Manuf.",
+    "revisionDate": 1725945705,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CAC86676-E386-41A9-86BB-F45D9C7684AB"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "Profile 300+",
+    "power": 350.0,
+    "uuid": "3DD2BE3C-5BBF-4021-9227-F2452563F4F5",
+    "rid": "76845",
+    "uploader": "Manuf.",
+    "revisionDate": 1729843404,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3DD2BE3C-5BBF-4021-9227-F2452563F4F5"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "X-Beam IP",
+    "power": 120.0,
+    "uuid": "34BF115E-9A14-4891-932A-79CE05FF50E5",
+    "rid": "98640",
+    "uploader": "Manuf.",
+    "revisionDate": 1748845671,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=34BF115E-9A14-4891-932A-79CE05FF50E5"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "X-DOT",
+    "power": 520.0,
+    "uuid": "2959D344-9B41-479C-AF6B-F23501580F00",
+    "rid": "82333",
+    "uploader": "Manuf.",
+    "revisionDate": 1735905740,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=2959D344-9B41-479C-AF6B-F23501580F00"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "X-DOT Max",
+    "power": 1500.0,
+    "uuid": "468054A8-9501-47AF-94CB-E85BCDBE159B",
+    "rid": "147669",
+    "uploader": "Manuf.",
+    "revisionDate": 1781845550,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=468054A8-9501-47AF-94CB-E85BCDBE159B"
+  },
+  {
+    "manufacturer": "Brighter",
+    "model": "X-profile IP",
+    "power": 850.0,
+    "uuid": "1E4E90AA-AEBF-40C4-A667-D5A22B714A71",
+    "rid": "145135",
+    "uploader": "Manuf.",
+    "revisionDate": 1780383113,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1E4E90AA-AEBF-40C4-A667-D5A22B714A71"
+  },
+  {
+    "manufacturer": "Briteq",
+    "model": "BT-THEATRE 60FCL",
+    "power": 150.0,
+    "uuid": "BBB7042F-88B1-4668-80B9-7A260E059DD0",
+    "rid": "139128",
+    "uploader": "Manuf.",
+    "revisionDate": 1776417762,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BBB7042F-88B1-4668-80B9-7A260E059DD0"
+  },
+  {
+    "manufacturer": "Briteq",
+    "model": "BTI-AKKUBEAMER",
+    "power": 30.0,
+    "uuid": "58557440-19CF-4051-82C5-A999E231290A",
+    "rid": "109798",
+    "uploader": "Manuf.",
+    "revisionDate": 1757059612,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=58557440-19CF-4051-82C5-A999E231290A"
+  },
+  {
+    "manufacturer": "Briteq",
+    "model": "BTI-FLATPAR12",
+    "power": 30.0,
+    "uuid": "E8F38C09-F49B-42CF-A80F-665746133AC0",
+    "rid": "143831",
+    "uploader": "Manuf.",
+    "revisionDate": 1779436735,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E8F38C09-F49B-42CF-A80F-665746133AC0"
+  },
+  {
+    "manufacturer": "Briteq",
+    "model": "BTI-RAPTOR",
+    "power": 850.0,
+    "uuid": "D8445ACC-74EA-4CC6-AEA9-3657A63A2FD6",
+    "rid": "148502",
+    "uploader": "Manuf.",
+    "revisionDate": 1782465610,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D8445ACC-74EA-4CC6-AEA9-3657A63A2FD6"
+  },
+  {
+    "manufacturer": "Briteq",
+    "model": "BTI-RAPTOR",
+    "power": 850.0,
+    "uuid": "D8445ACC-74EA-4CC6-AEA9-3657A63A2FD6",
+    "rid": "145882",
+    "uploader": "Manuf.",
+    "revisionDate": 1780893084,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D8445ACC-74EA-4CC6-AEA9-3657A63A2FD6"
+  },
+  {
+    "manufacturer": "Chauvet Professional",
+    "model": "Maverick Force X Profile",
+    "power": 520.0,
+    "uuid": "DCCBD37E-A448-41B4-ADF4-15B97A6300D5",
+    "rid": "106179",
+    "uploader": "Manuf.",
+    "revisionDate": 1753978685,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=DCCBD37E-A448-41B4-ADF4-15B97A6300D5"
+  },
+  {
+    "manufacturer": "Chauvet Professional",
+    "model": "Maverick Force X Spot",
+    "power": 565.0,
+    "uuid": "B507B18B-0CB6-4F4E-8C2A-734116B878C9",
+    "rid": "137827",
+    "uploader": "Manuf.",
+    "revisionDate": 1775670538,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B507B18B-0CB6-4F4E-8C2A-734116B878C9"
+  },
+  {
+    "manufacturer": "Chauvet Professional",
+    "model": "Maverick Storm 3 Profile",
+    "power": 620.0,
+    "uuid": "C9F2EB69-8EC6-45D7-96B1-A100408D71A6",
+    "rid": "136561",
+    "uploader": "Manuf.",
+    "revisionDate": 1775064597,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C9F2EB69-8EC6-45D7-96B1-A100408D71A6"
+  },
+  {
+    "manufacturer": "Chauvet Professional",
+    "model": "Well Pod 2",
+    "power": 53.0,
+    "uuid": "9A142B54-CBB4-4636-9B0C-886D5F451D43",
+    "rid": "109836",
+    "uploader": "Manuf.",
+    "revisionDate": 1757083942,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9A142B54-CBB4-4636-9B0C-886D5F451D43"
+  },
+  {
+    "manufacturer": "Chauvet Professional",
+    "model": "Well Pod 3",
+    "power": 88.0,
+    "uuid": "5CC45484-400E-425A-B0AF-89764B208E2C",
+    "rid": "109837",
+    "uploader": "Manuf.",
+    "revisionDate": 1757084117,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5CC45484-400E-425A-B0AF-89764B208E2C"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "EvoWash Air",
+    "power": 640.0,
+    "uuid": "3CB3E022-729E-4545-9847-627F9A8EC651",
+    "rid": "150358",
+    "uploader": "Manuf.",
+    "revisionDate": 1783659088,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3CB3E022-729E-4545-9847-627F9A8EC651"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "EvoWash Pro",
+    "power": 1460.0,
+    "uuid": "1A231597-8C54-49DC-ADBB-2F44E813EB5A",
+    "rid": "153704",
+    "uploader": "Manuf.",
+    "revisionDate": 1785744298,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1A231597-8C54-49DC-ADBB-2F44E813EB5A"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "FC Halonel Plus",
+    "power": 1124.0,
+    "uuid": "A28810C0-DAC7-4CB0-9316-A35712257843",
+    "rid": "148204",
+    "uploader": "Manuf.",
+    "revisionDate": 1782288587,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A28810C0-DAC7-4CB0-9316-A35712257843"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "FC Halonel Pro",
+    "power": 1124.0,
+    "uuid": "60E18F90-FC10-4660-AB43-4E44CB21CE67",
+    "rid": "148210",
+    "uploader": "Manuf.",
+    "revisionDate": 1782293357,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=60E18F90-FC10-4660-AB43-4E44CB21CE67"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Mini Blinder",
+    "power": 584.0,
+    "uuid": "1EBB5F23-2E3D-4E32-A7B9-4C984BBACDB9",
+    "rid": "142742",
+    "uploader": "Manuf.",
+    "revisionDate": 1778804083,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1EBB5F23-2E3D-4E32-A7B9-4C984BBACDB9"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Pinspot 40",
+    "power": 96.0,
+    "uuid": "57F98B31-1A15-4F78-BA0A-FB2D92260F9A",
+    "rid": "114967",
+    "uploader": "Manuf.",
+    "revisionDate": 1761288333,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=57F98B31-1A15-4F78-BA0A-FB2D92260F9A"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M3",
+    "power": 1354.0,
+    "uuid": "80245535-C2F1-45AB-94E6-DC72C15E03EC",
+    "rid": "150060",
+    "uploader": "Manuf.",
+    "revisionDate": 1783474245,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=80245535-C2F1-45AB-94E6-DC72C15E03EC"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M5",
+    "power": 1988.0,
+    "uuid": "3274555B-4524-435F-BE97-F13245B87092",
+    "rid": "150079",
+    "uploader": "Manuf.",
+    "revisionDate": 1783489502,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3274555B-4524-435F-BE97-F13245B87092"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M5",
+    "power": 1500.0,
+    "uuid": "3274555B-4524-435F-BE97-F13245B87092",
+    "rid": "145101",
+    "uploader": "Manuf.",
+    "revisionDate": 1780365226,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3274555B-4524-435F-BE97-F13245B87092"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M7",
+    "power": 1435.0,
+    "uuid": "0C52837A-F4E8-46AB-BC05-EF07E8155DF0",
+    "rid": "150197",
+    "uploader": "Manuf.",
+    "revisionDate": 1783559985,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0C52837A-F4E8-46AB-BC05-EF07E8155DF0"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M9",
+    "power": 1700.0,
+    "uuid": "849967FF-F81D-427D-88F0-507BFD82D88C",
+    "rid": "150205",
+    "uploader": "Manuf.",
+    "revisionDate": 1783572618,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=849967FF-F81D-427D-88F0-507BFD82D88C"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Tourist M9",
+    "power": 1700.0,
+    "uuid": "849967FF-F81D-427D-88F0-507BFD82D88C",
+    "rid": "153326",
+    "uploader": "Manuf.",
+    "revisionDate": 1785453701,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=849967FF-F81D-427D-88F0-507BFD82D88C"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "TS6",
+    "power": 1460.0,
+    "uuid": "316882F0-8B02-48A4-97A7-F7827F299810",
+    "rid": "150763",
+    "uploader": "Manuf.",
+    "revisionDate": 1783932657,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=316882F0-8B02-48A4-97A7-F7827F299810"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "V2sIP",
+    "power": 650.0,
+    "uuid": "B1114FE5-8436-41E6-AFDC-E941E71233A3",
+    "rid": "107397",
+    "uploader": "Manuf.",
+    "revisionDate": 1755040694,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B1114FE5-8436-41E6-AFDC-E941E71233A3"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "Wash ZB7",
+    "power": 680.0,
+    "uuid": "688A681A-D774-4F51-8249-A8D0D90BC451",
+    "rid": "149840",
+    "uploader": "Manuf.",
+    "revisionDate": 1783383621,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=688A681A-D774-4F51-8249-A8D0D90BC451"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "ZB19X IP",
+    "power": 2900.0,
+    "uuid": "C0855D1D-0FD1-42D2-A3DD-09C683A4AE9D",
+    "rid": "149852",
+    "uploader": "Manuf.",
+    "revisionDate": 1783387462,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C0855D1D-0FD1-42D2-A3DD-09C683A4AE9D"
+  },
+  {
+    "manufacturer": "CKC Lighting",
+    "model": "ZB7X IP",
+    "power": 1100.0,
+    "uuid": "458CCF0F-74C2-4B01-87A4-C17E1E588FE9",
+    "rid": "149757",
+    "uploader": "Manuf.",
+    "revisionDate": 1783325443,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=458CCF0F-74C2-4B01-87A4-C17E1E588FE9"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Profilo LED 120 HQS",
+    "power": 30.0,
+    "uuid": "BF56F3E6-80E2-43E2-A837-4EE886C27A05",
+    "rid": "149984",
+    "uploader": "Manuf.",
+    "revisionDate": 1783429568,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BF56F3E6-80E2-43E2-A837-4EE886C27A05"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Profilo LED 200 CT",
+    "power": 30.0,
+    "uuid": "45DCEA82-E290-4D6D-8108-6306E9156BED",
+    "rid": "149985",
+    "uploader": "Manuf.",
+    "revisionDate": 1783429722,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=45DCEA82-E290-4D6D-8108-6306E9156BED"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Profilo LED 200 FC",
+    "power": 30.0,
+    "uuid": "2BF90B9A-D8A8-49AC-85EC-C65AF5CA7ED2",
+    "rid": "149991",
+    "uploader": "Manuf.",
+    "revisionDate": 1783432824,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=2BF90B9A-D8A8-49AC-85EC-C65AF5CA7ED2"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Scena LED 120 HQS",
+    "power": 30.0,
+    "uuid": "41C46731-4360-4536-AE51-5996AB196A55",
+    "rid": "148930",
+    "uploader": "Manuf.",
+    "revisionDate": 1782807597,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=41C46731-4360-4536-AE51-5996AB196A55"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Scena LED 200 CT",
+    "power": 30.0,
+    "uuid": "F42F8075-7855-48C2-9EFA-2D20EB8DB8E3",
+    "rid": "149910",
+    "uploader": "Manuf.",
+    "revisionDate": 1783414706,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F42F8075-7855-48C2-9EFA-2D20EB8DB8E3"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Scena LED 200 FC",
+    "power": 30.0,
+    "uuid": "7D6D313F-F83F-448B-B42C-DDD12CEB5116",
+    "rid": "149907",
+    "uploader": "Manuf.",
+    "revisionDate": 1783413938,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7D6D313F-F83F-448B-B42C-DDD12CEB5116"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Scena LED 80 CT",
+    "power": 30.0,
+    "uuid": "260DEF69-97F2-4371-A88B-8EEC9FABDE4E",
+    "rid": "149998",
+    "uploader": "Manuf.",
+    "revisionDate": 1783433363,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=260DEF69-97F2-4371-A88B-8EEC9FABDE4E"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Soprano 1 hdw",
+    "power": 150.0,
+    "uuid": "BBA3D81A-AAC6-42D1-B179-C27B8B7EF8EA",
+    "rid": "148398",
+    "uploader": "Manuf.",
+    "revisionDate": 1782390824,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BBA3D81A-AAC6-42D1-B179-C27B8B7EF8EA"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "SOPRANO 1 HQS",
+    "power": 150.0,
+    "uuid": "BD17BFAE-F538-4A0B-93D4-10EB1EF6468E",
+    "rid": "148373",
+    "uploader": "Manuf.",
+    "revisionDate": 1782386945,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=BD17BFAE-F538-4A0B-93D4-10EB1EF6468E"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Soprano 1 WH",
+    "power": 150.0,
+    "uuid": "5E0D64BE-20B1-422B-AE27-183C264AB2F8",
+    "rid": "149215",
+    "uploader": "Manuf.",
+    "revisionDate": 1782983497,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5E0D64BE-20B1-422B-AE27-183C264AB2F8"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Soprano 3 hdw",
+    "power": 150.0,
+    "uuid": "5462A14A-BE96-4FF0-817B-DAAD4354B922",
+    "rid": "148384",
+    "uploader": "Manuf.",
+    "revisionDate": 1782388240,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5462A14A-BE96-4FF0-817B-DAAD4354B922"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "SOPRANO 3 HQS",
+    "power": 150.0,
+    "uuid": "7CE157F0-1D07-4849-8BC2-E7A6D814FE40",
+    "rid": "148371",
+    "uploader": "Manuf.",
+    "revisionDate": 1782386781,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7CE157F0-1D07-4849-8BC2-E7A6D814FE40"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Soprano 3 WH",
+    "power": 150.0,
+    "uuid": "6BAE2A1E-07BB-42FD-948D-19678AED20EA",
+    "rid": "149217",
+    "uploader": "Manuf.",
+    "revisionDate": 1782983932,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6BAE2A1E-07BB-42FD-948D-19678AED20EA"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "SOPRANO 5 HQS",
+    "power": 150.0,
+    "uuid": "0CC70F37-534B-4A83-9FEB-4D4A40FAFAF1",
+    "rid": "148370",
+    "uploader": "Manuf.",
+    "revisionDate": 1782386720,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0CC70F37-534B-4A83-9FEB-4D4A40FAFAF1"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "Soprano 5 WH",
+    "power": 150.0,
+    "uuid": "C81AD565-152D-4328-AAFA-E7E9DBDDB5BE",
+    "rid": "149219",
+    "uploader": "Manuf.",
+    "revisionDate": 1782984674,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C81AD565-152D-4328-AAFA-E7E9DBDDB5BE"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "tenore 1 hdw",
+    "power": 150.0,
+    "uuid": "79A59DEF-6C5F-43D8-AB55-64E88D845256",
+    "rid": "148405",
+    "uploader": "Manuf.",
+    "revisionDate": 1782391271,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=79A59DEF-6C5F-43D8-AB55-64E88D845256"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "TENORE 1 HQS",
+    "power": 150.0,
+    "uuid": "9A16B867-C0BC-4444-A06C-E7A28682C796",
+    "rid": "148381",
+    "uploader": "Manuf.",
+    "revisionDate": 1782387761,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9A16B867-C0BC-4444-A06C-E7A28682C796"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "tenore 1 WH",
+    "power": 150.0,
+    "uuid": "A4A6D435-FEE0-43AB-9B60-CD762222A203",
+    "rid": "149231",
+    "uploader": "Manuf.",
+    "revisionDate": 1782986762,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A4A6D435-FEE0-43AB-9B60-CD762222A203"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "tenore 3 hdw",
+    "power": 150.0,
+    "uuid": "5E149189-E216-4F04-8C09-0EFF5B57B673",
+    "rid": "148403",
+    "uploader": "Manuf.",
+    "revisionDate": 1782391153,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5E149189-E216-4F04-8C09-0EFF5B57B673"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "tenore 5 hdw",
+    "power": 150.0,
+    "uuid": "CD4698CB-8C6F-40CF-8C1A-E32424B0AACF",
+    "rid": "148401",
+    "uploader": "Manuf.",
+    "revisionDate": 1782391031,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CD4698CB-8C6F-40CF-8C1A-E32424B0AACF"
+  },
+  {
+    "manufacturer": "DTS Lighting",
+    "model": "tenore 5 WH",
+    "power": 150.0,
+    "uuid": "5A35A042-37BA-44C6-B539-3A3CCF390ACE",
+    "rid": "149226",
+    "uploader": "Manuf.",
+    "revisionDate": 1782986352,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5A35A042-37BA-44C6-B539-3A3CCF390ACE"
+  },
+  {
+    "manufacturer": "Eagle Lite",
+    "model": "Spectrupar Z7",
+    "power": 30.0,
+    "uuid": "5C57B0BE-30C9-4C31-89F9-75CED5BAEE36",
+    "rid": "84362",
+    "uploader": "Manuf.",
+    "revisionDate": 1737719474,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5C57B0BE-30C9-4C31-89F9-75CED5BAEE36"
+  },
+  {
+    "manufacturer": "Flash",
+    "model": "DualBlaze 2x150W",
+    "power": 150.0,
+    "uuid": "72972531-0593-4C4B-B476-5F6431BA827C",
+    "rid": "90718",
+    "uploader": "Manuf.",
+    "revisionDate": 1742777792,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=72972531-0593-4C4B-B476-5F6431BA827C"
+  },
+  {
+    "manufacturer": "Flash",
+    "model": "PAR LED 1815 +AUV ZOOM IP65",
+    "power": 30.0,
+    "uuid": "F189CF0E-F9ED-483F-8173-B8102AD88E08",
+    "rid": "151426",
+    "uploader": "Manuf.",
+    "revisionDate": 1784384576,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F189CF0E-F9ED-483F-8173-B8102AD88E08"
+  },
+  {
+    "manufacturer": "GLP",
+    "model": "FUSION EXO Hybrid 40",
+    "power": 463.0,
+    "uuid": "5030EFB2-EF66-4CE7-B386-2D4AD1755AD2",
+    "rid": "107851",
+    "uploader": "Manuf.",
+    "revisionDate": 1755507580,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5030EFB2-EF66-4CE7-B386-2D4AD1755AD2"
+  },
+  {
+    "manufacturer": "Infinity",
+    "model": "Furion FX402 Bar",
+    "power": 800.0,
+    "uuid": "5AB2A383-47DA-11F0-AFEE-42010A37C004",
+    "rid": "143850",
+    "uploader": "Manuf.",
+    "revisionDate": 1779448214,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5AB2A383-47DA-11F0-AFEE-42010A37C004"
+  },
+  {
+    "manufacturer": "JB Systems",
+    "model": "RIVAL SPOT",
+    "power": 850.0,
+    "uuid": "43E9116E-245A-406B-B14B-2CCB656263C5",
+    "rid": "129764",
+    "uploader": "Manuf.",
+    "revisionDate": 1771597671,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=43E9116E-245A-406B-B14B-2CCB656263C5"
+  },
+  {
+    "manufacturer": "JB Systems",
+    "model": "VANTA SPOT",
+    "power": 850.0,
+    "uuid": "5F76E48E-169F-4407-925B-CAB23EFE8FDB",
+    "rid": "147059",
+    "uploader": "Manuf.",
+    "revisionDate": 1781524724,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5F76E48E-169F-4407-925B-CAB23EFE8FDB"
+  },
+  {
+    "manufacturer": "JB-Lighting",
+    "model": "P5 Beamspot HP",
+    "power": 350.0,
+    "uuid": "500E9443-A1B1-4BF8-A6F8-EE0141B4FDC9",
+    "rid": "134475",
+    "uploader": "Manuf.",
+    "revisionDate": 1774005152,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=500E9443-A1B1-4BF8-A6F8-EE0141B4FDC9"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "BEAM WS 440 CMY",
+    "power": 950.0,
+    "uuid": "1D9FB349-E6DD-42D5-A907-0E51D38E6A0D",
+    "rid": "129123",
+    "uploader": "Manuf.",
+    "revisionDate": 1771241013,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1D9FB349-E6DD-42D5-A907-0E51D38E6A0D"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "Beam350",
+    "power": 470.0,
+    "uuid": "3FF7BDCF-6060-40D2-BF61-F32D97465169",
+    "rid": "113690",
+    "uploader": "Manuf.",
+    "revisionDate": 1760436023,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3FF7BDCF-6060-40D2-BF61-F32D97465169"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "COB 200 4 IP",
+    "power": 30.0,
+    "uuid": "6412FE3B-A7D9-4E90-AC03-BDA920075509",
+    "rid": "120169",
+    "uploader": "Manuf.",
+    "revisionDate": 1764935548,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6412FE3B-A7D9-4E90-AC03-BDA920075509"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "COB SPOT 200 LW",
+    "power": 30.0,
+    "uuid": "D3CB4358-EBCF-4D1A-B51A-4BD29DAABA02",
+    "rid": "104949",
+    "uploader": "Manuf.",
+    "revisionDate": 1753249425,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D3CB4358-EBCF-4D1A-B51A-4BD29DAABA02"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "COB SPOT T 1C 3K",
+    "power": 30.0,
+    "uuid": "1B8591BC-6A48-4004-BEEE-3BCC9FAFB940",
+    "rid": "113695",
+    "uploader": "Manuf.",
+    "revisionDate": 1760440529,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1B8591BC-6A48-4004-BEEE-3BCC9FAFB940"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "MH 300 L",
+    "power": 440.0,
+    "uuid": "1C2AB6A3-B4D0-4E94-B821-52C529CB90C7",
+    "rid": "129131",
+    "uploader": "Manuf.",
+    "revisionDate": 1771242562,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1C2AB6A3-B4D0-4E94-B821-52C529CB90C7"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "MoviLED 304",
+    "power": 200.0,
+    "uuid": "6A56EC2C-7EE6-4CA0-8C60-6431D77EFB79",
+    "rid": "143618",
+    "uploader": "Manuf.",
+    "revisionDate": 1779341794,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6A56EC2C-7EE6-4CA0-8C60-6431D77EFB79"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "SIDIUS LLC 368",
+    "power": 430.0,
+    "uuid": "A7C27136-7EAA-49A8-8AAC-DD1E4D9B5B53",
+    "rid": "118377",
+    "uploader": "Manuf.",
+    "revisionDate": 1763725938,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A7C27136-7EAA-49A8-8AAC-DD1E4D9B5B53"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "SIDIUS LLC 368 MKII",
+    "power": 430.0,
+    "uuid": "193A2439-A44A-42FF-8972-6DCD10B643E1",
+    "rid": "109431",
+    "uploader": "Manuf.",
+    "revisionDate": 1756794512,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=193A2439-A44A-42FF-8972-6DCD10B643E1"
+  },
+  {
+    "manufacturer": "MARK",
+    "model": "SIDIUS ZOOM 555",
+    "power": 415.0,
+    "uuid": "B6C8C566-E629-4CAB-A8E2-09CB194370BA",
+    "rid": "145151",
+    "uploader": "Manuf.",
+    "revisionDate": 1780390364,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B6C8C566-E629-4CAB-A8E2-09CB194370BA"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ELP Manet 8F",
+    "power": 530.0,
+    "uuid": "05FA7B6A-1617-47E8-A69E-7DBFCDC7A700",
+    "rid": "117469",
+    "uploader": "Manuf.",
+    "revisionDate": 1763135371,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=05FA7B6A-1617-47E8-A69E-7DBFCDC7A700"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ELP PAR",
+    "power": 300.0,
+    "uuid": "1DEADF94-E905-42F8-8CBE-BB64A409BB82",
+    "rid": "77879",
+    "uploader": "Manuf.",
+    "revisionDate": 1731002466,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1DEADF94-E905-42F8-8CBE-BB64A409BB82"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 150 Wash",
+    "power": 340.0,
+    "uuid": "96C3EF92-E823-435B-981C-788E6BC00EB2",
+    "rid": "35510",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423813,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=96C3EF92-E823-435B-981C-788E6BC00EB2"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 300 Profile",
+    "power": 375.0,
+    "uuid": "E4F2458D-24CD-43BD-9C76-4B080F9DA645",
+    "rid": "35509",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423776,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E4F2458D-24CD-43BD-9C76-4B080F9DA645"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 600 Performance",
+    "power": 780.0,
+    "uuid": "AA1A0BA2-68CB-4A35-8435-CE35C94156CF",
+    "rid": "35506",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423686,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AA1A0BA2-68CB-4A35-8435-CE35C94156CF"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 600 Profile",
+    "power": 780.0,
+    "uuid": "66901A30-2E1C-404F-AEB1-46A2B3BE5B0E",
+    "rid": "35505",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423656,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=66901A30-2E1C-404F-AEB1-46A2B3BE5B0E"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 800 Performance",
+    "power": 1270.0,
+    "uuid": "15015F16-4662-4F48-9B18-03F3F5F386DF",
+    "rid": "35504",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423632,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=15015F16-4662-4F48-9B18-03F3F5F386DF"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "ERA 800 Profile",
+    "power": 1270.0,
+    "uuid": "7AF5E15B-8D28-4E3E-9435-F1298BA42DAC",
+    "rid": "35503",
+    "uploader": "Manuf.",
+    "revisionDate": 1677423602,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7AF5E15B-8D28-4E3E-9435-F1298BA42DAC"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Dot-HP Pro",
+    "power": 5.7,
+    "uuid": "FAABA045-95D4-4B3C-9684-FCC418177F6E",
+    "rid": "147873",
+    "uploader": "Manuf.",
+    "revisionDate": 1782042891,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FAABA045-95D4-4B3C-9684-FCC418177F6E"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro L CTC",
+    "power": 150.0,
+    "uuid": "227660BB-A8B9-465A-A1AA-5B10B9CD11F8",
+    "rid": "62034",
+    "uploader": "Manuf.",
+    "revisionDate": 1713467997,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=227660BB-A8B9-465A-A1AA-5B10B9CD11F8"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro L QUAD",
+    "power": 150.0,
+    "uuid": "641E0DB6-2128-42E0-89AD-F1D9F3B68358",
+    "rid": "86484",
+    "uploader": "Manuf.",
+    "revisionDate": 1739562608,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=641E0DB6-2128-42E0-89AD-F1D9F3B68358"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro M CTC",
+    "power": 75.0,
+    "uuid": "B3FAB28B-A099-4F3E-947D-AC1C46486F0B",
+    "rid": "62033",
+    "uploader": "Manuf.",
+    "revisionDate": 1713467982,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B3FAB28B-A099-4F3E-947D-AC1C46486F0B"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro M QUAD",
+    "power": 75.0,
+    "uuid": "7B487C62-A356-4DFE-886B-99DA90808E97",
+    "rid": "86483",
+    "uploader": "Manuf.",
+    "revisionDate": 1739562595,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7B487C62-A356-4DFE-886B-99DA90808E97"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro S CTC",
+    "power": 35.0,
+    "uuid": "EEFFBC4E-C20A-40D1-911A-5C6AA62CA668",
+    "rid": "62032",
+    "uploader": "Manuf.",
+    "revisionDate": 1713467965,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EEFFBC4E-C20A-40D1-911A-5C6AA62CA668"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro S QUAD",
+    "power": 35.0,
+    "uuid": "3E79A72F-0E4C-41D2-B03A-552E6AB255F7",
+    "rid": "86482",
+    "uploader": "Manuf.",
+    "revisionDate": 1739562581,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3E79A72F-0E4C-41D2-B03A-552E6AB255F7"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro XL CTC",
+    "power": 250.0,
+    "uuid": "E510EF26-E267-4961-9A77-57C6FFB1C8DC",
+    "rid": "62035",
+    "uploader": "Manuf.",
+    "revisionDate": 1713468026,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E510EF26-E267-4961-9A77-57C6FFB1C8DC"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Exterior Wash Pro XL QUAD",
+    "power": 250.0,
+    "uuid": "E78D0300-986C-4EAC-9D90-32845D3C3D97",
+    "rid": "86485",
+    "uploader": "Manuf.",
+    "revisionDate": 1739562618,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E78D0300-986C-4EAC-9D90-32845D3C3D97"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Allure Wash PC",
+    "power": 480.0,
+    "uuid": "264918EA-2A96-4AC1-836C-7EDD833EE625",
+    "rid": "36848",
+    "uploader": "Manuf.",
+    "revisionDate": 1678995920,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=264918EA-2A96-4AC1-836C-7EDD833EE625"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Aura",
+    "power": 235.0,
+    "uuid": "3C42E48F-9781-45EF-8D4D-D39CAE915133",
+    "rid": "40783",
+    "uploader": "Manuf.",
+    "revisionDate": 1685670543,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3C42E48F-9781-45EF-8D4D-D39CAE915133"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Aura XB",
+    "power": 350.0,
+    "uuid": "D179FD28-256E-47E8-9EB7-21748CD9DB6D",
+    "rid": "40784",
+    "uploader": "Manuf.",
+    "revisionDate": 1685670823,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D179FD28-256E-47E8-9EB7-21748CD9DB6D"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Quantum Profile",
+    "power": 575.0,
+    "uuid": "704D7B2C-7650-0000-B72C-C1C739AA3D46",
+    "rid": "36847",
+    "uploader": "Manuf.",
+    "revisionDate": 1678995885,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=704D7B2C-7650-0000-B72C-C1C739AA3D46"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Quantum Wash",
+    "power": 880.0,
+    "uuid": "DF4973F2-4C59-4275-B7C7-D94164C43FBD",
+    "rid": "37128",
+    "uploader": "Manuf.",
+    "revisionDate": 1679402186,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=DF4973F2-4C59-4275-B7C7-D94164C43FBD"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Ultra Performance",
+    "power": 1380.0,
+    "uuid": "EB46F8DF-374F-4A1A-9C80-C1FA8C3F61A0",
+    "rid": "131139",
+    "uploader": "Manuf.",
+    "revisionDate": 1772285893,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EB46F8DF-374F-4A1A-9C80-C1FA8C3F61A0"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Ultra Wash",
+    "power": 1350.0,
+    "uuid": "AB6FB0AF-FCE2-447C-AF08-93FE88A114C1",
+    "rid": "131140",
+    "uploader": "Manuf.",
+    "revisionDate": 1772286429,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AB6FB0AF-FCE2-447C-AF08-93FE88A114C1"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Viper AirFX",
+    "power": 1225.0,
+    "uuid": "7601A92D-CC08-47CF-AFD0-2FB55C3A30DA",
+    "rid": "40095",
+    "uploader": "Manuf.",
+    "revisionDate": 1684267616,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7601A92D-CC08-47CF-AFD0-2FB55C3A30DA"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Viper Performance",
+    "power": 1225.0,
+    "uuid": "ACC2CD46-CD42-4489-B0BF-CDD3A95067A8",
+    "rid": "40091",
+    "uploader": "Manuf.",
+    "revisionDate": 1684267520,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=ACC2CD46-CD42-4489-B0BF-CDD3A95067A8"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Viper Profile",
+    "power": 1225.0,
+    "uuid": "00000000-EA4A-0000-BC47-3E4FBB861C6E",
+    "rid": "146138",
+    "uploader": "Manuf.",
+    "revisionDate": 1781020609,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=00000000-EA4A-0000-BC47-3E4FBB861C6E"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "MAC Viper Wash",
+    "power": 1225.0,
+    "uuid": "E6D18DF8-4744-4E31-B256-689AB9EEDFEB",
+    "rid": "40094",
+    "uploader": "Manuf.",
+    "revisionDate": 1684267592,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E6D18DF8-4744-4E31-B256-689AB9EEDFEB"
+  },
+  {
+    "manufacturer": "Martin Professional",
+    "model": "Macula Base Station",
+    "power": 30.0,
+    "uuid": "46053842-862A-419E-8204-EB0EB86FFD81",
+    "rid": "155028",
+    "uploader": "Manuf.",
+    "revisionDate": 1786394615,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=46053842-862A-419E-8204-EB0EB86FFD81"
+  },
+  {
+    "manufacturer": "NXT Lights",
+    "model": "Flexon L",
+    "power": 1.0,
+    "uuid": "84A69D08-F55F-1002-C181-ADB8C53B11DE",
+    "rid": "105839",
+    "uploader": "Manuf.",
+    "revisionDate": 1753804180,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=84A69D08-F55F-1002-C181-ADB8C53B11DE"
+  },
+  {
+    "manufacturer": "OXO Light",
+    "model": "PIXYLINE 150",
+    "power": 60.0,
+    "uuid": "C7FE5D27-1031-45E7-9646-348CD5AEADA5",
+    "rid": "155562",
+    "uploader": "Manuf.",
+    "revisionDate": 1786705762,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C7FE5D27-1031-45E7-9646-348CD5AEADA5"
+  },
+  {
+    "manufacturer": "OXO Light",
+    "model": "PIXYLINE 300 GFX",
+    "power": 30.0,
+    "uuid": "57ABF90D-C3AB-CC3E-9D6F-0149040B43FC",
+    "rid": "155559",
+    "uploader": "Manuf.",
+    "revisionDate": 1786705523,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=57ABF90D-C3AB-CC3E-9D6F-0149040B43FC"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "ArenaCob4FC",
+    "power": 230.0,
+    "uuid": "E34256AE-2463-4E0E-98F9-2A6376918C12",
+    "rid": "63892",
+    "uploader": "Manuf.",
+    "revisionDate": 1715607615,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E34256AE-2463-4E0E-98F9-2A6376918C12"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "AstraBeam120IP",
+    "power": 150.0,
+    "uuid": "6F3A075B-9712-48AE-A6AB-929CDD717706",
+    "rid": "132659",
+    "uploader": "Manuf.",
+    "revisionDate": 1773043795,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6F3A075B-9712-48AE-A6AB-929CDD717706"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "AstraProfile1200IP",
+    "power": 1830.0,
+    "uuid": "FB2E6FB5-7076-40AD-ABEC-D5C5770B6DAE",
+    "rid": "146686",
+    "uploader": "Manuf.",
+    "revisionDate": 1781251554,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FB2E6FB5-7076-40AD-ABEC-D5C5770B6DAE"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "AstraProfile300LTIP",
+    "power": 491.0,
+    "uuid": "54052136-3D26-4995-9FB6-8814321904FC",
+    "rid": "146684",
+    "uploader": "Manuf.",
+    "revisionDate": 1781251113,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=54052136-3D26-4995-9FB6-8814321904FC"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "AstraProfile500LTIP",
+    "power": 670.0,
+    "uuid": "02F9720D-94AE-4D56-8AE1-D2DFB2246B75",
+    "rid": "146685",
+    "uploader": "Manuf.",
+    "revisionDate": 1781251257,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=02F9720D-94AE-4D56-8AE1-D2DFB2246B75"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "AstraProfile900",
+    "power": 1250.0,
+    "uuid": "21AFCDD3-3524-436F-BF6B-BA20336340E3",
+    "rid": "128281",
+    "uploader": "Manuf.",
+    "revisionDate": 1770729742,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=21AFCDD3-3524-436F-BF6B-BA20336340E3"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "EclFresnelFWXSVW",
+    "power": 130.0,
+    "uuid": "E3FB3152-C2B3-4FA0-B44A-B5FEF36B7612",
+    "rid": "139905",
+    "uploader": "Manuf.",
+    "revisionDate": 1776934420,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E3FB3152-C2B3-4FA0-B44A-B5FEF36B7612"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "EclParDOTFC",
+    "power": 25.0,
+    "uuid": "D4E34AA1-5367-4C70-B890-F79F2B1CF780",
+    "rid": "139891",
+    "uploader": "Manuf.",
+    "revisionDate": 1776929863,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D4E34AA1-5367-4C70-B890-F79F2B1CF780"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "EclParDOTVW",
+    "power": 65.0,
+    "uuid": "E27A9520-3143-4541-AED1-0866B6A924B6",
+    "rid": "139893",
+    "uploader": "Manuf.",
+    "revisionDate": 1776930194,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E27A9520-3143-4541-AED1-0866B6A924B6"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "EclParIPMUV",
+    "power": 117.0,
+    "uuid": "A59E9D70-C409-4F13-81D2-73D335DE2B33",
+    "rid": "137719",
+    "uploader": "Manuf.",
+    "revisionDate": 1775629942,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A59E9D70-C409-4F13-81D2-73D335DE2B33"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "JetBeam120IP",
+    "power": 150.0,
+    "uuid": "2B7752FA-46B6-4229-A593-7239A6F8AED6",
+    "rid": "132073",
+    "uploader": "Manuf.",
+    "revisionDate": 1772716291,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=2B7752FA-46B6-4229-A593-7239A6F8AED6"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "JetHybrid200",
+    "power": 276.0,
+    "uuid": "AA539D04-2E5A-4601-BB69-464F23C614D8",
+    "rid": "148199",
+    "uploader": "Manuf.",
+    "revisionDate": 1782285756,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AA539D04-2E5A-4601-BB69-464F23C614D8"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "JetProfile300LT",
+    "power": 491.0,
+    "uuid": "CA11CD16-1079-4012-9BE8-423A898DABE8",
+    "rid": "146682",
+    "uploader": "Manuf.",
+    "revisionDate": 1781250585,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CA11CD16-1079-4012-9BE8-423A898DABE8"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "JetSpot120",
+    "power": 180.0,
+    "uuid": "9B8E2D18-9950-4A9B-BD30-99F79E358839",
+    "rid": "98207",
+    "uploader": "Manuf.",
+    "revisionDate": 1748430380,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9B8E2D18-9950-4A9B-BD30-99F79E358839"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "MuseFresnel70CTPlus",
+    "power": 1450.0,
+    "uuid": "667BE4F6-B0FB-4D88-A6D3-B34CBF93E4FB",
+    "rid": "151334",
+    "uploader": "Manuf.",
+    "revisionDate": 1784277729,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=667BE4F6-B0FB-4D88-A6D3-B34CBF93E4FB"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "MuseProfile70CTPlus",
+    "power": 1300.0,
+    "uuid": "3F2E8495-DC65-4D1B-8047-DE5740D6C55C",
+    "rid": "149800",
+    "uploader": "Manuf.",
+    "revisionDate": 1783347410,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3F2E8495-DC65-4D1B-8047-DE5740D6C55C"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "SunblastFLX",
+    "power": 1200.0,
+    "uuid": "26B1A765-00E6-4A65-AC50-2B786862C68F",
+    "rid": "125640",
+    "uploader": "Manuf.",
+    "revisionDate": 1768913517,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=26B1A765-00E6-4A65-AC50-2B786862C68F"
+  },
+  {
+    "manufacturer": "Prolights",
+    "model": "Versapar",
+    "power": 120.0,
+    "uuid": "B27A38B5-DA2E-40C9-ADEE-B70BD3B827E6",
+    "rid": "116500",
+    "uploader": "Manuf.",
+    "revisionDate": 1762441597,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B27A38B5-DA2E-40C9-ADEE-B70BD3B827E6"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "ColorWash 2500E AT",
+    "power": 1862.0,
+    "uuid": "B7E67ED8-B5E6-4DD9-B85A-34BD5532C42A",
+    "rid": "49575",
+    "uploader": "Manuf.",
+    "revisionDate": 1698142981,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B7E67ED8-B5E6-4DD9-B85A-34BD5532C42A"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin 100 LEDBeam",
+    "power": 200.0,
+    "uuid": "F74CAC5F-1BEA-4195-8B75-F9E466A0B802",
+    "rid": "57362",
+    "uploader": "Manuf.",
+    "revisionDate": 1707466446,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F74CAC5F-1BEA-4195-8B75-F9E466A0B802"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin 1200 LEDWash",
+    "power": 550.0,
+    "uuid": "6BAA16EF-F2FC-4A7D-AF1B-45BF0547BDFF",
+    "rid": "113182",
+    "uploader": "Manuf.",
+    "revisionDate": 1759986313,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6BAA16EF-F2FC-4A7D-AF1B-45BF0547BDFF"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin 300 LEDWash",
+    "power": 200.0,
+    "uuid": "D738BFE5-4300-4E4E-8FD1-21A2A80CD405",
+    "rid": "60184",
+    "uploader": "Manuf.",
+    "revisionDate": 1711359623,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D738BFE5-4300-4E4E-8FD1-21A2A80CD405"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin 300X LEDWash",
+    "power": 200.0,
+    "uuid": "B21CDC43-451A-4C8C-9ACA-31FA78C28CDC",
+    "rid": "30472",
+    "uploader": "Manuf.",
+    "revisionDate": 1668117079,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B21CDC43-451A-4C8C-9ACA-31FA78C28CDC"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin 600 LEDWash",
+    "power": 415.0,
+    "uuid": "1C8C3DB6-A31F-4220-BD67-99035290B312",
+    "rid": "60186",
+    "uploader": "Manuf.",
+    "revisionDate": 1711359640,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1C8C3DB6-A31F-4220-BD67-99035290B312"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Actor 12",
+    "power": 680.0,
+    "uuid": "CDA9D224-F055-4E9A-A7BC-95C047C2EEF7",
+    "rid": "88947",
+    "uploader": "Manuf.",
+    "revisionDate": 1741617850,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CDA9D224-F055-4E9A-A7BC-95C047C2EEF7"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Actor 6",
+    "power": 415.0,
+    "uuid": "77D39C0F-2913-418E-B9D1-1AC951BAE675",
+    "rid": "88946",
+    "uploader": "Manuf.",
+    "revisionDate": 1741617471,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=77D39C0F-2913-418E-B9D1-1AC951BAE675"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL Blade",
+    "power": 2000.0,
+    "uuid": "7F8C97FD-5A4A-403F-9486-A3A06FBFF570",
+    "rid": "135524",
+    "uploader": "Manuf.",
+    "revisionDate": 1774512720,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7F8C97FD-5A4A-403F-9486-A3A06FBFF570"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL FollowSpot",
+    "power": 2000.0,
+    "uuid": "3011BF1D-1705-4D79-A5C9-945418E8E776",
+    "rid": "135708",
+    "uploader": "Manuf.",
+    "revisionDate": 1774596093,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3011BF1D-1705-4D79-A5C9-945418E8E776"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL FollowSpot LT",
+    "power": 2000.0,
+    "uuid": "1B8F51CC-27FA-4C76-9B88-3463D8633E66",
+    "rid": "135709",
+    "uploader": "Manuf.",
+    "revisionDate": 1774596136,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1B8F51CC-27FA-4C76-9B88-3463D8633E66"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL Wash",
+    "power": 2000.0,
+    "uuid": "D7A0726B-9E75-44ED-9A05-292B1648AC1F",
+    "rid": "135704",
+    "uploader": "Manuf.",
+    "revisionDate": 1774595898,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D7A0726B-9E75-44ED-9A05-292B1648AC1F"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL Wash XF",
+    "power": 2000.0,
+    "uuid": "F0E59181-CCFA-4ABC-AA85-BBF79AFACE5C",
+    "rid": "135705",
+    "uploader": "Manuf.",
+    "revisionDate": 1774595957,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F0E59181-CCFA-4ABC-AA85-BBF79AFACE5C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin BMFL WashBeam",
+    "power": 2000.0,
+    "uuid": "8F468525-A7B9-4972-888B-272016F70CC2",
+    "rid": "135706",
+    "uploader": "Manuf.",
+    "revisionDate": 1774596004,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=8F468525-A7B9-4972-888B-272016F70CC2"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin ColorStrobe IP",
+    "power": 440.0,
+    "uuid": "42615957-9A28-4D45-9D1C-35CAFF8B8164",
+    "rid": "44031",
+    "uploader": "Manuf.",
+    "revisionDate": 1690193731,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=42615957-9A28-4D45-9D1C-35CAFF8B8164"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Cuete",
+    "power": 220.0,
+    "uuid": "EE1EA2A4-2DB0-4E69-9F64-DB911E8E2957",
+    "rid": "119416",
+    "uploader": "Manuf.",
+    "revisionDate": 1764575524,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EE1EA2A4-2DB0-4E69-9F64-DB911E8E2957"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin CycBar 15",
+    "power": 170.0,
+    "uuid": "EF6E9B12-23F0-4435-BEFF-8CBFC338D09C",
+    "rid": "119744",
+    "uploader": "Manuf.",
+    "revisionDate": 1764747419,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EF6E9B12-23F0-4435-BEFF-8CBFC338D09C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin CycBar 15X",
+    "power": 170.0,
+    "uuid": "A0520844-B27D-4B12-936E-0E66995DF865",
+    "rid": "119743",
+    "uploader": "Manuf.",
+    "revisionDate": 1764747344,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A0520844-B27D-4B12-936E-0E66995DF865"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin DL4F Wash",
+    "power": 550.0,
+    "uuid": "67B5F99E-C466-41D1-9788-009916F6FBC3",
+    "rid": "97316",
+    "uploader": "Manuf.",
+    "revisionDate": 1747714511,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=67B5F99E-C466-41D1-9788-009916F6FBC3"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin DL4S Profile",
+    "power": 550.0,
+    "uuid": "499B1A8A-D5F4-45E6-A8D7-4BB99BB18E1F",
+    "rid": "97310",
+    "uploader": "Manuf.",
+    "revisionDate": 1747713449,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=499B1A8A-D5F4-45E6-A8D7-4BB99BB18E1F"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin DL4X Spot",
+    "power": 550.0,
+    "uuid": "AD919919-3D22-486B-ADA8-AB7905FAFA23",
+    "rid": "97311",
+    "uploader": "Manuf.",
+    "revisionDate": 1747713781,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AD919919-3D22-486B-ADA8-AB7905FAFA23"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin DL7F Wash",
+    "power": 1000.0,
+    "uuid": "237259BC-3852-48D7-A811-C2E4D0D4FBE6",
+    "rid": "30807",
+    "uploader": "Manuf.",
+    "revisionDate": 1669032428,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=237259BC-3852-48D7-A811-C2E4D0D4FBE6"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin DL7S Profile",
+    "power": 1000.0,
+    "uuid": "C9F1E863-8A41-4899-9A32-FB3E71A1A9B5",
+    "rid": "86174",
+    "uploader": "Manuf.",
+    "revisionDate": 1739357828,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C9F1E863-8A41-4899-9A32-FB3E71A1A9B5"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Esprite Fresnel",
+    "power": 950.0,
+    "uuid": "CA0E936C-6A5E-4325-9232-232E845A894B",
+    "rid": "63633",
+    "uploader": "Manuf.",
+    "revisionDate": 1715245203,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CA0E936C-6A5E-4325-9232-232E845A894B"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Esprite FS",
+    "power": 950.0,
+    "uuid": "E1E97FEA-4D9E-482D-84AB-C6E83E48A569",
+    "rid": "116798",
+    "uploader": "Manuf.",
+    "revisionDate": 1762757658,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E1E97FEA-4D9E-482D-84AB-C6E83E48A569"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Esprite PC",
+    "power": 950.0,
+    "uuid": "52847D41-CFF3-43E5-A262-71BC91C6981C",
+    "rid": "63634",
+    "uploader": "Manuf.",
+    "revisionDate": 1715245244,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=52847D41-CFF3-43E5-A262-71BC91C6981C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Forte",
+    "power": 1250.0,
+    "uuid": "8FD3403C-C7B2-44CA-AD7E-DFB7FB88B656",
+    "rid": "116612",
+    "uploader": "Manuf.",
+    "revisionDate": 1762515673,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=8FD3403C-C7B2-44CA-AD7E-DFB7FB88B656"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Forte® Fresnel",
+    "power": 1250.0,
+    "uuid": "7BB23ECA-FD23-48D0-88E4-EC5F67E91CC3",
+    "rid": "60442",
+    "uploader": "Manuf.",
+    "revisionDate": 1711531883,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7BB23ECA-FD23-48D0-88E4-EC5F67E91CC3"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Forte® PC",
+    "power": 1250.0,
+    "uuid": "5AE39286-BB67-487D-9A9E-8092B6307757",
+    "rid": "155273",
+    "uploader": "Manuf.",
+    "revisionDate": 1786534616,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5AE39286-BB67-487D-9A9E-8092B6307757"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin GigaPointe®",
+    "power": 500.0,
+    "uuid": "70B67EC3-AD1D-40F2-A909-12301F64820C",
+    "rid": "143265",
+    "uploader": "Manuf.",
+    "revisionDate": 1779164818,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=70B67EC3-AD1D-40F2-A909-12301F64820C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iBar 15",
+    "power": 170.0,
+    "uuid": "C78402D8-280D-493F-B695-2426023919E7",
+    "rid": "154943",
+    "uploader": "Manuf.",
+    "revisionDate": 1786342821,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C78402D8-280D-493F-B695-2426023919E7"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iBeam 250",
+    "power": 280.0,
+    "uuid": "CCAB3DB1-6FD4-4221-897B-D8EA77436105",
+    "rid": "116627",
+    "uploader": "Manuf.",
+    "revisionDate": 1762519495,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CCAB3DB1-6FD4-4221-897B-D8EA77436105"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iForte",
+    "power": 1250.0,
+    "uuid": "C42CEA6E-90EE-44AA-882D-C574E0F004B7",
+    "rid": "155335",
+    "uploader": "Manuf.",
+    "revisionDate": 1786594626,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C42CEA6E-90EE-44AA-882D-C574E0F004B7"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iForte® Fresnel",
+    "power": 1250.0,
+    "uuid": "326AB9BD-119B-4136-8A8B-A1AA845EF46C",
+    "rid": "121628",
+    "uploader": "Manuf.",
+    "revisionDate": 1766046425,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=326AB9BD-119B-4136-8A8B-A1AA845EF46C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iParFect 150 FW RGBA",
+    "power": 180.0,
+    "uuid": "ED874E79-7349-46F1-A9A6-5B46EE28DA1E",
+    "rid": "30859",
+    "uploader": "Manuf.",
+    "revisionDate": 1669190753,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=ED874E79-7349-46F1-A9A6-5B46EE28DA1E"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iParFect 150 FW RGBW",
+    "power": 180.0,
+    "uuid": "1EA628BD-7497-4B2A-B865-74337A65C75C",
+    "rid": "30861",
+    "uploader": "Manuf.",
+    "revisionDate": 1669196519,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=1EA628BD-7497-4B2A-B865-74337A65C75C"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iPointe",
+    "power": 550.0,
+    "uuid": "A7A87C68-F9CA-4894-B307-78B7838006C9",
+    "rid": "116621",
+    "uploader": "Manuf.",
+    "revisionDate": 1762516937,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A7A87C68-F9CA-4894-B307-78B7838006C9"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iProMotion",
+    "power": 140.0,
+    "uuid": "D01381A5-37EA-4E58-91B3-D9C183074DC2",
+    "rid": "117911",
+    "uploader": "Manuf.",
+    "revisionDate": 1763459266,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D01381A5-37EA-4E58-91B3-D9C183074DC2"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin iSpiiderX® ",
+    "power": 660.0,
+    "uuid": "AC70980B-8E18-4355-AD16-05441F030039",
+    "rid": "119734",
+    "uploader": "Manuf.",
+    "revisionDate": 1764744688,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC70980B-8E18-4355-AD16-05441F030039"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin LedPOINTE®",
+    "power": 400.0,
+    "uuid": "7DD0F0B0-6D12-4440-85CC-EC5B299AF485",
+    "rid": "126378",
+    "uploader": "Manuf.",
+    "revisionDate": 1769514428,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=7DD0F0B0-6D12-4440-85CC-EC5B299AF485"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin MegaPointe®",
+    "power": 670.0,
+    "uuid": "E3BD5003-C35C-4C69-AD69-E63ECF0FFB6B",
+    "rid": "138392",
+    "uploader": "Manuf.",
+    "revisionDate": 1776060860,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E3BD5003-C35C-4C69-AD69-E63ECF0FFB6B"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "ROBIN MiniMe®",
+    "power": 100.0,
+    "uuid": "92D02B9C-0B03-4B00-975B-7B58D84C94B4",
+    "rid": "33436",
+    "uploader": "Manuf.",
+    "revisionDate": 1674572286,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=92D02B9C-0B03-4B00-975B-7B58D84C94B4"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin miniPointe ®",
+    "power": 260.0,
+    "uuid": "0EA0F6C7-B695-4BCE-A25A-1B42D5215C7A",
+    "rid": "62416",
+    "uploader": "Manuf.",
+    "revisionDate": 1713873759,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0EA0F6C7-B695-4BCE-A25A-1B42D5215C7A"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Painte® Fresnel",
+    "power": 440.0,
+    "uuid": "CB961B97-2D08-4674-BBEF-D8CFBDD842ED",
+    "rid": "116618",
+    "uploader": "Manuf.",
+    "revisionDate": 1762516357,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CB961B97-2D08-4674-BBEF-D8CFBDD842ED"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Painte® Spot",
+    "power": 440.0,
+    "uuid": "4EF98E51-7B72-418F-9DB7-26B3B5CB717A",
+    "rid": "116619",
+    "uploader": "Manuf.",
+    "revisionDate": 1762516434,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=4EF98E51-7B72-418F-9DB7-26B3B5CB717A"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Pointe",
+    "power": 470.0,
+    "uuid": "3C217CA1-DD2C-462C-9C6D-9ECA7E3B9E5B",
+    "rid": "62324",
+    "uploader": "Manuf.",
+    "revisionDate": 1713781409,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3C217CA1-DD2C-462C-9C6D-9ECA7E3B9E5B"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin ProMotion",
+    "power": 140.0,
+    "uuid": "946C995B-6975-4FA4-BF4D-19399186443F",
+    "rid": "43210",
+    "uploader": "Manuf.",
+    "revisionDate": 1689235150,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=946C995B-6975-4FA4-BF4D-19399186443F"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Spiider",
+    "power": 660.0,
+    "uuid": "FF00403F-EEDC-4E89-8FF2-CD5976365896",
+    "rid": "119729",
+    "uploader": "Manuf.",
+    "revisionDate": 1764742839,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FF00403F-EEDC-4E89-8FF2-CD5976365896"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Spikie",
+    "power": 100.0,
+    "uuid": "848AA5F9-E4C8-49F7-83BE-49C77A2FA1AD",
+    "rid": "99663",
+    "uploader": "Manuf.",
+    "revisionDate": 1749552747,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=848AA5F9-E4C8-49F7-83BE-49C77A2FA1AD"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin SuperSpikie",
+    "power": 330.0,
+    "uuid": "E9594C30-AB04-4A3C-9225-F0780893806B",
+    "rid": "99778",
+    "uploader": "Manuf.",
+    "revisionDate": 1749628645,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E9594C30-AB04-4A3C-9225-F0780893806B"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin T.5 Profile",
+    "power": 480.0,
+    "uuid": "A3F97DB0-A2F7-47CB-9BDF-7034740DD29F",
+    "rid": "150717",
+    "uploader": "Manuf.",
+    "revisionDate": 1783916744,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A3F97DB0-A2F7-47CB-9BDF-7034740DD29F"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Tarrantula",
+    "power": 1000.0,
+    "uuid": "2FAF8A74-1CDD-4894-817F-79FD093C6128",
+    "rid": "119741",
+    "uploader": "Manuf.",
+    "revisionDate": 1764747180,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=2FAF8A74-1CDD-4894-817F-79FD093C6128"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Tetra1",
+    "power": 300.0,
+    "uuid": "980DB5C1-7315-47BA-9AE7-BF841B62FFA8",
+    "rid": "119735",
+    "uploader": "Manuf.",
+    "revisionDate": 1764744768,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=980DB5C1-7315-47BA-9AE7-BF841B62FFA8"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Tetra2",
+    "power": 600.0,
+    "uuid": "5A7B5195-AF40-4BDA-A658-CBAA98DFF9C0",
+    "rid": "119736",
+    "uploader": "Manuf.",
+    "revisionDate": 1764744823,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=5A7B5195-AF40-4BDA-A658-CBAA98DFF9C0"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin Viva",
+    "power": 500.0,
+    "uuid": "93C2D43B-6621-48F6-B039-E8483446241D",
+    "rid": "75302",
+    "uploader": "Manuf.",
+    "revisionDate": 1728379669,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=93C2D43B-6621-48F6-B039-E8483446241D"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin® DLF Wash",
+    "power": 550.0,
+    "uuid": "EC26F655-B15B-45C4-A274-49A2B89BA032",
+    "rid": "97314",
+    "uploader": "Manuf.",
+    "revisionDate": 1747714299,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=EC26F655-B15B-45C4-A274-49A2B89BA032"
+  },
+  {
+    "manufacturer": "Robe Lighting",
+    "model": "Robin® DLX Spot",
+    "power": 550.0,
+    "uuid": "61E2CDC0-5979-48A4-A322-ACAED9FE4425",
+    "rid": "97315",
+    "uploader": "Manuf.",
+    "revisionDate": 1747714425,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=61E2CDC0-5979-48A4-A322-ACAED9FE4425"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "CLUSTER B2-FC",
+    "power": 620.0,
+    "uuid": "70F505B3-5FDB-44A0-B610-98397CB9F6D4",
+    "rid": "126795",
+    "uploader": "Manuf.",
+    "revisionDate": 1769780177,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=70F505B3-5FDB-44A0-B610-98397CB9F6D4"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "CLUSTER B2-W",
+    "power": 620.0,
+    "uuid": "D55C4D75-A45F-41E4-9FD8-A8F618553816",
+    "rid": "127024",
+    "uploader": "Manuf.",
+    "revisionDate": 1770023558,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=D55C4D75-A45F-41E4-9FD8-A8F618553816"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "CLUSTER B4-FC",
+    "power": 1250.0,
+    "uuid": "0BB32E3B-0467-4CAC-8C94-B627A0867785",
+    "rid": "127025",
+    "uploader": "Manuf.",
+    "revisionDate": 1770023726,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0BB32E3B-0467-4CAC-8C94-B627A0867785"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "CLUSTER B4-W",
+    "power": 1350.0,
+    "uuid": "49D0BC9B-0E09-4FD5-ACF3-6FAB0FFF789F",
+    "rid": "127026",
+    "uploader": "Manuf.",
+    "revisionDate": 1770023859,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=49D0BC9B-0E09-4FD5-ACF3-6FAB0FFF789F"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Cluster S1",
+    "power": 1010.0,
+    "uuid": "FCDCC518-1FA1-4FD4-A841-319266B74A68",
+    "rid": "127027",
+    "uploader": "Manuf.",
+    "revisionDate": 1770023991,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FCDCC518-1FA1-4FD4-A841-319266B74A68"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Cluster S1",
+    "power": 1010.0,
+    "uuid": "FCDCC518-1FA1-4FD4-A841-319266B74A68",
+    "rid": "74536",
+    "uploader": "Manuf.",
+    "revisionDate": 1727417502,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=FCDCC518-1FA1-4FD4-A841-319266B74A68"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Cluster S2",
+    "power": 1250.0,
+    "uuid": "93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB",
+    "rid": "66480",
+    "uploader": "Manuf.",
+    "revisionDate": 1718615402,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Cluster S2",
+    "power": 1250.0,
+    "uuid": "93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB",
+    "rid": "127028",
+    "uploader": "Manuf.",
+    "revisionDate": 1770024129,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Cluster S2",
+    "power": 1250.0,
+    "uuid": "93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB",
+    "rid": "49866",
+    "uploader": "Manuf.",
+    "revisionDate": 1698663243,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=93F60B6A-B426-4ABE-BB9C-484E7AAA9AAB"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo",
+    "power": 750.0,
+    "uuid": "AC118872-3833-4B1A-8B90-E04BF5E77201",
+    "rid": "141554",
+    "uploader": "Manuf.",
+    "revisionDate": 1778064027,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC118872-3833-4B1A-8B90-E04BF5E77201"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo",
+    "power": 750.0,
+    "uuid": "AC118872-3833-4B1A-8B90-E04BF5E77201",
+    "rid": "127030",
+    "uploader": "Manuf.",
+    "revisionDate": 1770024355,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC118872-3833-4B1A-8B90-E04BF5E77201"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo",
+    "power": 750.0,
+    "uuid": "AC118872-3833-4B1A-8B90-E04BF5E77201",
+    "rid": "70598",
+    "uploader": "Manuf.",
+    "revisionDate": 1723445964,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC118872-3833-4B1A-8B90-E04BF5E77201"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo",
+    "power": 750.0,
+    "uuid": "AC118872-3833-4B1A-8B90-E04BF5E77201",
+    "rid": "69374",
+    "uploader": "Manuf.",
+    "revisionDate": 1722334072,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=AC118872-3833-4B1A-8B90-E04BF5E77201"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo fx",
+    "power": 1234.0,
+    "uuid": "891EC424-5CBF-4C9C-829B-B07963FC7C08",
+    "rid": "84631",
+    "uploader": "Manuf.",
+    "revisionDate": 1737985977,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=891EC424-5CBF-4C9C-829B-B07963FC7C08"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo fx",
+    "power": 1234.0,
+    "uuid": "891EC424-5CBF-4C9C-829B-B07963FC7C08",
+    "rid": "127033",
+    "uploader": "Manuf.",
+    "revisionDate": 1770024587,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=891EC424-5CBF-4C9C-829B-B07963FC7C08"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo lite",
+    "power": 644.0,
+    "uuid": "E428767A-674B-4D79-941B-FA7A4A886869",
+    "rid": "112186",
+    "uploader": "Manuf.",
+    "revisionDate": 1759122115,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E428767A-674B-4D79-941B-FA7A4A886869"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo Mini",
+    "power": 644.0,
+    "uuid": "B8564A89-F598-4ADF-B02D-7AF4B89F14F7",
+    "rid": "127036",
+    "uploader": "Manuf.",
+    "revisionDate": 1770024737,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B8564A89-F598-4ADF-B02D-7AF4B89F14F7"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo Mini",
+    "power": 644.0,
+    "uuid": "B8564A89-F598-4ADF-B02D-7AF4B89F14F7",
+    "rid": "101871",
+    "uploader": "Manuf.",
+    "revisionDate": 1751013690,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B8564A89-F598-4ADF-B02D-7AF4B89F14F7"
+  },
+  {
+    "manufacturer": "ROXX",
+    "model": "Neo Mini",
+    "power": 644.0,
+    "uuid": "B8564A89-F598-4ADF-B02D-7AF4B89F14F7",
+    "rid": "112397",
+    "uploader": "Manuf.",
+    "revisionDate": 1759229843,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B8564A89-F598-4ADF-B02D-7AF4B89F14F7"
+  },
+  {
+    "manufacturer": "Sagitter",
+    "model": "JBeam Mini",
+    "power": 850.0,
+    "uuid": "86F2BB50-1D95-4AD4-8475-619EC84CE717",
+    "rid": "137754",
+    "uploader": "Manuf.",
+    "revisionDate": 1775638495,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=86F2BB50-1D95-4AD4-8475-619EC84CE717"
+  },
+  {
+    "manufacturer": "Sagitter",
+    "model": "SG AQUPAR12",
+    "power": 30.0,
+    "uuid": "4E0443A8-0B57-4BB8-B47C-FF505E540FE7",
+    "rid": "131584",
+    "uploader": "Manuf.",
+    "revisionDate": 1772531563,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=4E0443A8-0B57-4BB8-B47C-FF505E540FE7"
+  },
+  {
+    "manufacturer": "Sagitter",
+    "model": "SG AQUPAR18",
+    "power": 30.0,
+    "uuid": "0EFB1C3C-C5FC-46EB-BA44-108EDA990A76",
+    "rid": "131590",
+    "uploader": "Manuf.",
+    "revisionDate": 1772532074,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=0EFB1C3C-C5FC-46EB-BA44-108EDA990A76"
+  },
+  {
+    "manufacturer": "Sagitter",
+    "model": "SG AQUPAR7",
+    "power": 30.0,
+    "uuid": "43519D85-04CB-4DAB-B2C4-A89E55B59C64",
+    "rid": "131583",
+    "uploader": "Manuf.",
+    "revisionDate": 1772531471,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=43519D85-04CB-4DAB-B2C4-A89E55B59C64"
+  },
+  {
+    "manufacturer": "Showtec",
+    "model": "Goliath",
+    "power": 325.0,
+    "uuid": "6DE07FCD-2BC1-11F0-AFEE-42010A37C004",
+    "rid": "136931",
+    "uploader": "Manuf.",
+    "revisionDate": 1775206965,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=6DE07FCD-2BC1-11F0-AFEE-42010A37C004"
+  },
+  {
+    "manufacturer": "Showtec",
+    "model": "Spectra Strobe",
+    "power": 362.0,
+    "uuid": "A6FE8711-2B99-11F0-AFEE-42010A37C004",
+    "rid": "129530",
+    "uploader": "Manuf.",
+    "revisionDate": 1771488126,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=A6FE8711-2B99-11F0-AFEE-42010A37C004"
+  },
+  {
+    "manufacturer": "Showtec",
+    "model": "Spectra Wash",
+    "power": 345.0,
+    "uuid": "3D848E36-2B0C-11F0-AFEE-42010A37C004",
+    "rid": "101438",
+    "uploader": "Manuf.",
+    "revisionDate": 1750831092,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3D848E36-2B0C-11F0-AFEE-42010A37C004"
+  },
+  {
+    "manufacturer": "Showtec",
+    "model": "Stage Blinder FLEX Blaze",
+    "power": 700.0,
+    "uuid": "F7B08C8B-3843-11EF-887D-525400685065",
+    "rid": "101597",
+    "uploader": "Manuf.",
+    "revisionDate": 1750888114,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F7B08C8B-3843-11EF-887D-525400685065"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": " Monza Wet",
+    "power": 1100.0,
+    "uuid": "4E711AED-6998-4288-9FFC-C7385A8523FA",
+    "rid": "149213",
+    "uploader": "Manuf.",
+    "revisionDate": 1782990491,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=4E711AED-6998-4288-9FFC-C7385A8523FA"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "BARACCA 360",
+    "power": 400.0,
+    "uuid": "8B0DC205-1354-4AF1-A194-AC4DB6ED83F3",
+    "rid": "103263",
+    "uploader": "Manuf.",
+    "revisionDate": 1752042785,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=8B0DC205-1354-4AF1-A194-AC4DB6ED83F3"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "BARACCA 360 WET",
+    "power": 400.0,
+    "uuid": "3F91932E-E80C-4E1D-8DBF-B899C3A4F705",
+    "rid": "103264",
+    "uploader": "Manuf.",
+    "revisionDate": 1752043041,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=3F91932E-E80C-4E1D-8DBF-B899C3A4F705"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "DAYTONA",
+    "power": 990.0,
+    "uuid": "91DB784A-EABA-4076-A756-E14551DDC94D",
+    "rid": "74324",
+    "uploader": "Manuf.",
+    "revisionDate": 1727254597,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=91DB784A-EABA-4076-A756-E14551DDC94D"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "Lusso",
+    "power": 900.0,
+    "uuid": "C86ECE36-BD24-4351-BB38-86AF570BC143",
+    "rid": "103246",
+    "uploader": "Manuf.",
+    "revisionDate": 1752040766,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C86ECE36-BD24-4351-BB38-86AF570BC143"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "Roma Wet",
+    "power": 1000.0,
+    "uuid": "171F3F26-E73B-468A-B646-7B9A877AC81D",
+    "rid": "134800",
+    "uploader": "Manuf.",
+    "revisionDate": 1774252967,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=171F3F26-E73B-468A-B646-7B9A877AC81D"
+  },
+  {
+    "manufacturer": "Starway",
+    "model": "Superfast Wet ",
+    "power": 440.0,
+    "uuid": "F4F7CC4B-254F-439F-88B3-68D1DA8E4036",
+    "rid": "105629",
+    "uploader": "Manuf.",
+    "revisionDate": 1753689604,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=F4F7CC4B-254F-439F-88B3-68D1DA8E4036"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Aqua Meteor 84 Neon ",
+    "power": 30.0,
+    "uuid": "E7C90AA8-810B-4E59-B781-C6C48811C23F",
+    "rid": "111288",
+    "uploader": "Manuf.",
+    "revisionDate": 1758268649,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=E7C90AA8-810B-4E59-B781-C6C48811C23F"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Comet 84 Neon",
+    "power": 30.0,
+    "uuid": "B216D0EC-B88E-4792-964B-606605726E4A",
+    "rid": "111912",
+    "uploader": "Manuf.",
+    "revisionDate": 1758784145,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=B216D0EC-B88E-4792-964B-606605726E4A"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Halley H450",
+    "power": 440.0,
+    "uuid": "C9703A8C-CC44-486A-8DE8-0F53F4864C11",
+    "rid": "99889",
+    "uploader": "Manuf.",
+    "revisionDate": 1749684198,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C9703A8C-CC44-486A-8DE8-0F53F4864C11"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Halley H450",
+    "power": 440.0,
+    "uuid": "C9703A8C-CC44-486A-8DE8-0F53F4864C11",
+    "rid": "110019",
+    "uploader": "Manuf.",
+    "revisionDate": 1757314666,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=C9703A8C-CC44-486A-8DE8-0F53F4864C11"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Python 100",
+    "power": 440.0,
+    "uuid": "CD88F408-70D5-4A38-8971-4B1C39C36DD8",
+    "rid": "155362",
+    "uploader": "Manuf.",
+    "revisionDate": 1786609260,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=CD88F408-70D5-4A38-8971-4B1C39C36DD8"
+  },
+  {
+    "manufacturer": "Triton Blue",
+    "model": "Python W7",
+    "power": 1100.0,
+    "uuid": "9B4D6D3D-83B5-4A1E-A701-6D87A3464C5A",
+    "rid": "112329",
+    "uploader": "Manuf.",
+    "revisionDate": 1759208903,
+    "sourceUrl": "https://gdtf.eu/gdtf/gdtf_bench/?uuids=9B4D6D3D-83B5-4A1E-A701-6D87A3464C5A"
+  }
+]

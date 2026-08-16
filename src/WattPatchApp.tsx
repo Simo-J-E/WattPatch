@@ -2,6 +2,7 @@
 
 import {
   useCallback,
+  useDeferredValue,
   useEffect,
   useMemo,
   useRef,
@@ -12,6 +13,15 @@ import {
   type ReactNode,
 } from "react";
 import fixtureData from "./data/fixtures.json";
+import {
+  catalogFixtureToDefinition,
+  catalogIdentityKey,
+  loadChamSysCatalog,
+  searchChamSysCatalog,
+  type ChamSysCatalog,
+  type ChamSysCatalogMetadata,
+  type ChamSysFixture,
+} from "./lib/chamsysCatalog";
 import {
   calculateFixtureCurrent,
   circuitLoads,
@@ -330,6 +340,10 @@ export function WattPatchApp() {
   const [optimizing, setOptimizing] = useState(false);
   const [toast, setToast] = useState("");
   const [projectName, setProjectName] = useState("");
+  const [catalog, setCatalog] = useState<ChamSysCatalog | null>(null);
+  const [catalogError, setCatalogError] = useState("");
+  const [catalogLoading, setCatalogLoading] = useState(true);
+  const [customPreset, setCustomPreset] = useState<ChamSysFixture | null>(null);
   const hydrated = useRef(false);
   const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -357,10 +371,39 @@ export function WattPatchApp() {
     };
   }, []);
 
+  useEffect(() => {
+    const controller = new AbortController();
+    setCatalogLoading(true);
+    loadChamSysCatalog(controller.signal)
+      .then((loaded) => {
+        setCatalog(loaded);
+        setCatalogError("");
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setCatalogError("The full ChamSys catalog could not be loaded.");
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setCatalogLoading(false);
+      });
+    return () => controller.abort();
+  }, []);
+
   const project = projects.find((item) => item.id === activeProjectId) ?? projects[0];
   const definitions = useMemo(
     () => [...VERIFIED_FIXTURES, ...project.customFixtures],
     [project.customFixtures],
+  );
+  const deferredSearch = useDeferredValue(search);
+  const definitionsByIdentity = useMemo(
+    () =>
+      new Map(
+        definitions.map((definition) => [
+          catalogIdentityKey(definition.manufacturer, definition.model),
+          definition,
+        ]),
+      ),
+    [definitions],
   );
   const loads = useMemo(
     () =>
@@ -399,7 +442,7 @@ export function WattPatchApp() {
   );
 
   const visibleDefinitions = useMemo(() => {
-    const terms = search.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    const terms = deferredSearch.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const ordered = [...definitions].sort((a, b) => {
       const favouriteDelta =
         Number(project.favourites.includes(b.id)) - Number(project.favourites.includes(a.id));
@@ -428,10 +471,23 @@ export function WattPatchApp() {
       ].join(" ").toLowerCase();
       return terms.every((term) => haystack.includes(term));
     });
-  }, [definitions, fixtureFilter, project.favourites, project.recentFixtureIds, project.voltageV, search]);
+  }, [definitions, deferredSearch, fixtureFilter, project.favourites, project.recentFixtureIds, project.voltageV]);
+
+  const catalogSearch = useMemo(
+    () =>
+      fixtureFilter === "all" && catalog
+        ? searchChamSysCatalog(catalog.fixtures, deferredSearch)
+        : { items: [], total: 0 },
+    [catalog, deferredSearch, fixtureFilter],
+  );
 
   const addFixture = (definition: FixtureDefinition, quantity = 1) => {
     updateProject((current) => {
+      const customFixtures =
+        VERIFIED_FIXTURES.some((item) => item.id === definition.id) ||
+        current.customFixtures.some((item) => item.id === definition.id)
+          ? current.customFixtures
+          : [...current.customFixtures, definition];
       const existing = current.fixtures.find(
         (fixture) => fixture.definitionId === definition.id && fixture.lockedCircuitId === null,
       );
@@ -439,6 +495,7 @@ export function WattPatchApp() {
       if (existing) {
         return {
           ...current,
+          customFixtures,
           recentFixtureIds: recent,
           fixtures: current.fixtures.map((fixture) =>
             fixture.id === existing.id
@@ -454,6 +511,7 @@ export function WattPatchApp() {
       const lampCount = definition.removableLamps ? definition.lampCount : null;
       return {
         ...current,
+        customFixtures,
         recentFixtureIds: recent,
         fixtures: [
           ...current.fixtures,
@@ -470,6 +528,22 @@ export function WattPatchApp() {
       };
     });
     notify(`${definition.model} added`);
+  };
+
+  const addCatalogFixture = (fixture: ChamSysFixture) => {
+    const existing = definitionsByIdentity.get(
+      catalogIdentityKey(fixture.manufacturer, fixture.model),
+    );
+    if (existing) {
+      addFixture(existing);
+      return;
+    }
+    if (!fixture.power || !catalog) {
+      setCustomPreset(fixture);
+      setDialog("custom");
+      return;
+    }
+    addFixture(catalogFixtureToDefinition(fixture, catalog.metadata.generatedDate));
   };
 
   const setFixtureQuantity = (fixtureId: string, quantity: number) => {
@@ -723,7 +797,7 @@ export function WattPatchApp() {
       return;
     }
     const definition: FixtureDefinition = {
-      id: makeId("custom"),
+      id: customPreset?.id ?? makeId("custom"),
       manufacturer,
       model,
       category: String(form.get("category")) as FixtureDefinition["category"],
@@ -742,7 +816,9 @@ export function WattPatchApp() {
       sourceUrl: String(form.get("sourceUrl") || "").trim(),
       verificationDate: new Date().toISOString().slice(0, 10),
       status: "estimated",
-      estimationNote: "User-entered value. Verify against manufacturer documentation.",
+      estimationNote: customPreset
+        ? "User-entered power for a ChamSys catalog fixture. Verify against manufacturer documentation."
+        : "User-entered value. Verify against manufacturer documentation.",
     };
     updateProject((current) => ({
       ...current,
@@ -762,7 +838,8 @@ export function WattPatchApp() {
       ],
     }));
     setDialog(null);
-    notify("Custom fixture added");
+    setCustomPreset(null);
+    notify(`${model} added`);
   };
 
   const exportCsv = () => {
@@ -880,13 +957,19 @@ export function WattPatchApp() {
               project={project}
               definitions={visibleDefinitions}
               allCount={definitions.length}
+              catalogMetadata={catalog?.metadata ?? null}
+              catalogDefinitions={catalogSearch.items}
+              catalogTotal={catalogSearch.total}
+              catalogLoading={catalogLoading}
+              catalogError={catalogError}
               search={search}
               filter={fixtureFilter}
               onSearch={setSearch}
               onFilter={setFixtureFilter}
               onAdd={addFixture}
+              onCatalogAdd={addCatalogFixture}
               onFavourite={toggleFavourite}
-              onCustom={() => setDialog("custom")}
+              onCustom={() => { setCustomPreset(null); setDialog("custom"); }}
               onLibrary={() => setDialog("library")}
             />
             <SelectedFixtures
@@ -952,20 +1035,26 @@ export function WattPatchApp() {
       )}
 
       {dialog === "custom" && (
-        <DialogShell title="Add custom fixture" onClose={() => setDialog(null)} wide>
-          <form className="custom-form" onSubmit={submitCustomFixture}>
-            <label><span>Manufacturer</span><input name="manufacturer" list="manufacturers" defaultValue="Custom" required /></label>
+        <DialogShell title={customPreset ? "Enter fixture power" : "Add custom fixture"} onClose={() => setDialog(null)} wide>
+          <form className="custom-form" onSubmit={submitCustomFixture} key={customPreset?.id ?? "custom"}>
+            {customPreset && (
+              <p className="catalog-preset-note field-wide">
+                <strong>ChamSys catalog match</strong>
+                <span>{customPreset.profiles.length} DMX profile{customPreset.profiles.length === 1 ? "" : "s"}. ChamSys does not publish electrical power in its personality table, so enter a documented maximum input value.</span>
+              </p>
+            )}
+            <label><span>Manufacturer</span><input name="manufacturer" list="manufacturers" defaultValue={customPreset?.manufacturer ?? "Custom"} required /></label>
             <datalist id="manufacturers">{COMMON_MANUFACTURERS.map((item) => <option key={item} value={item} />)}</datalist>
-            <label><span>Model</span><input name="model" placeholder="Model or load name" required autoFocus /></label>
-            <label><span>Fixture type</span><select name="category" defaultValue="Custom electrical load">{FIXTURE_TYPES.map((type) => <option key={type}>{type}</option>)}</select></label>
-            <label><span>Maximum watts</span><input name="maxPowerW" type="number" min="0.1" step="0.1" inputMode="decimal" required /></label>
+            <label><span>Model</span><input name="model" placeholder="Model or load name" defaultValue={customPreset?.model ?? ""} required autoFocus={!customPreset} /></label>
+            <label><span>Fixture type</span><select name="category" defaultValue={customPreset?.category ?? "Custom electrical load"}>{FIXTURE_TYPES.map((type) => <option key={type}>{type}</option>)}</select></label>
+            <label><span>Maximum input watts</span><input name="maxPowerW" type="number" min="0.1" step="0.1" inputMode="decimal" required autoFocus={Boolean(customPreset)} /></label>
             <label><span>Rated amperes</span><input name="ratedCurrentA" type="number" min="0" step="0.01" inputMode="decimal" placeholder="Optional" /></label>
             <label><span>Voltage</span><input name="voltageV" type="number" min="1" step="1" inputMode="numeric" defaultValue={project.voltageV} required /></label>
             <label><span>Power factor</span><input name="powerFactor" type="number" min="0.01" max="1" step="0.01" inputMode="decimal" placeholder="Optional" /></label>
             <label><span>Quantity</span><input name="quantity" type="number" min="1" step="1" inputMode="numeric" defaultValue="1" required /></label>
             <label><span>Inrush current</span><input name="inrushCurrentA" type="number" min="0" step="0.1" inputMode="decimal" placeholder="Optional" /></label>
-            <label className="field-wide"><span>Source link</span><input name="sourceUrl" type="url" placeholder="Optional manufacturer page" /></label>
-            <p className="form-note field-wide">User-entered fixtures are marked estimated until their data is verified.</p>
+            <label className="field-wide"><span>Power source link</span><input name="sourceUrl" type="url" placeholder="Optional manufacturer page or manual" /></label>
+            <p className="form-note field-wide">User-entered power is marked estimated until verified. Do not use lamp output wattage unless it is also the documented total input consumption.</p>
             <div className="dialog-actions field-wide">
               <button type="button" className="button secondary" onClick={() => setDialog(null)}>Cancel</button>
               <button type="submit" className="button primary">Add fixture</button>
@@ -987,9 +1076,11 @@ export function WattPatchApp() {
 
       {dialog === "library" && (
         <DialogShell title="Fixture library" onClose={() => setDialog(null)}>
-          <p className="dialog-copy">The built-in list is intentionally limited to sourced data. Add any other load with the custom form.</p>
+          <p className="dialog-copy">
+            WattPatch includes every fixture in the ChamSys table: {catalog?.metadata.fixtureCount.toLocaleString() ?? "21,968"} models and {catalog?.metadata.personalityCount.toLocaleString() ?? "68,757"} profiles. {catalog?.metadata.powerMatchedFixtureCount.toLocaleString() ?? "1,293"} exact models have sourced maximum-input power; all others require a documented value before power planning.
+          </p>
           <div className="export-list">
-            <button type="button" className="export-row" onClick={() => download("wattpatch-fixtures.json", JSON.stringify(definitions, null, 2), "application/json")}>Export library JSON <span>{definitions.length} fixture records</span></button>
+            <button type="button" className="export-row" onClick={() => download("wattpatch-powered-fixtures.json", JSON.stringify(definitions, null, 2), "application/json")}>Export powered library JSON <span>{definitions.length} verified, sourced or custom power records</span></button>
             <label className="export-row file-export">Import library JSON <span>Validated before import</span><input type="file" accept="application/json,.json" onChange={importLibrary} /></label>
           </div>
         </DialogShell>
@@ -1091,11 +1182,17 @@ function FixtureLibrary({
   project,
   definitions,
   allCount,
+  catalogMetadata,
+  catalogDefinitions,
+  catalogTotal,
+  catalogLoading,
+  catalogError,
   search,
   filter,
   onSearch,
   onFilter,
   onAdd,
+  onCatalogAdd,
   onFavourite,
   onCustom,
   onLibrary,
@@ -1103,23 +1200,41 @@ function FixtureLibrary({
   project: Project;
   definitions: FixtureDefinition[];
   allCount: number;
+  catalogMetadata: ChamSysCatalogMetadata | null;
+  catalogDefinitions: ChamSysFixture[];
+  catalogTotal: number;
+  catalogLoading: boolean;
+  catalogError: string;
   search: string;
   filter: FixtureFilter;
   onSearch: (value: string) => void;
   onFilter: (value: FixtureFilter) => void;
   onAdd: (definition: FixtureDefinition) => void;
+  onCatalogAdd: (fixture: ChamSysFixture) => void;
   onFavourite: (id: string) => void;
   onCustom: () => void;
   onLibrary: () => void;
 }) {
+  const hasSearch = search.trim().length > 0;
+  const noResults =
+    hasSearch && definitions.length === 0 && catalogDefinitions.length === 0 && !catalogLoading;
   return (
     <section className="fixture-library">
       <div className="section-heading compact-heading">
-        <div><h1>Fixtures</h1><p>{allCount} sourced and custom records.</p></div>
+        <div>
+          <h1>Fixtures</h1>
+          <p>
+            {catalogMetadata
+              ? `${catalogMetadata.fixtureCount.toLocaleString()} ChamSys models · ${catalogMetadata.personalityCount.toLocaleString()} profiles · ${allCount} powered/project records.`
+              : catalogLoading
+                ? `Loading full ChamSys catalog · ${allCount} powered/project records.`
+                : `${allCount} powered/project records.`}
+          </p>
+        </div>
         <button type="button" className="button primary" onClick={onCustom}>Add custom</button>
       </div>
       <div className="fixture-search-block">
-        <label className="search-label"><span className="sr-only">Search fixtures</span><input type="search" value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search manufacturer, model, type, watts or amperes" autoComplete="off" /></label>
+        <label className="search-label"><span className="sr-only">Search fixtures</span><input type="search" value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search brand, model, DMX mode, channels, file or watts" autoComplete="off" /></label>
         <div className="filter-tabs" aria-label="Fixture filters">
           {(["all", "favourites", "recent"] as const).map((item) => (
             <button type="button" key={item} className={filter === item ? "active" : ""} onClick={() => onFilter(item)}>{item[0].toUpperCase() + item.slice(1)}</button>
@@ -1128,7 +1243,10 @@ function FixtureLibrary({
         </div>
       </div>
       <div className="fixture-results" role="list" aria-label="Fixture search results">
-        {definitions.length === 0 && <div className="empty-state">No matching fixtures. Add a custom fixture if the model is not listed.</div>}
+        {noResults && <div className="empty-state">No matching fixture. Try fewer words or search the ChamSys file name.</div>}
+        {filter !== "all" && !hasSearch && definitions.length === 0 && (
+          <div className="empty-state">No {filter} fixtures yet.</div>
+        )}
         {definitions.map((definition) => {
           const current = calculateFixtureCurrent(definition, project.voltageV);
           const favourite = project.favourites.includes(definition.id);
@@ -1150,8 +1268,92 @@ function FixtureLibrary({
             </div>
           );
         })}
+        {filter === "all" && !hasSearch && (
+          <div className="catalog-search-prompt">
+            <strong>Search the complete ChamSys library</strong>
+            <span>Every one of its {catalogMetadata?.fixtureCount.toLocaleString() ?? "21,968"} fixture models and {catalogMetadata?.personalityCount.toLocaleString() ?? "68,757"} DMX profiles is indexed. Start typing a brand, model, mode, channel count or ChamSys file name.</span>
+          </div>
+        )}
+        {filter === "all" && hasSearch && catalogLoading && (
+          <div className="catalog-status">Loading complete ChamSys results…</div>
+        )}
+        {filter === "all" && catalogError && (
+          <div className="catalog-status error">{catalogError}</div>
+        )}
+        {catalogDefinitions.length > 0 && (
+          <div className="catalog-result-heading">
+            <strong>ChamSys catalog</strong>
+            <span>{catalogTotal.toLocaleString()} match{catalogTotal === 1 ? "" : "es"}</span>
+          </div>
+        )}
+        {catalogDefinitions.map((fixture) => (
+          <CatalogFixtureRow
+            key={`catalog-${fixture.id}`}
+            fixture={fixture}
+            sourceUrl={catalogMetadata?.sourceUrl ?? "https://secure.chamsys.co.uk/bugtracker/personality_list.php"}
+            onAdd={onCatalogAdd}
+          />
+        ))}
+        {catalogTotal > catalogDefinitions.length && (
+          <div className="catalog-status">
+            Showing the first {catalogDefinitions.length.toLocaleString()} of {catalogTotal.toLocaleString()} matches. Add more of the model name, mode or channel count to narrow the results.
+          </div>
+        )}
       </div>
     </section>
+  );
+}
+
+function CatalogFixtureRow({
+  fixture,
+  sourceUrl,
+  onAdd,
+}: {
+  fixture: ChamSysFixture;
+  sourceUrl: string;
+  onAdd: (fixture: ChamSysFixture) => void;
+}) {
+  const channelValues = fixture.profiles.map((profile) => profile.channels);
+  const minChannels = Math.min(...channelValues);
+  const maxChannels = Math.max(...channelValues);
+  const channelLabel = minChannels === maxChannels ? `${minChannels} ch` : `${minChannels}–${maxChannels} ch`;
+  const authoritative =
+    fixture.power?.kind === "manufacturer" || fixture.power?.kind === "gdtf-manufacturer";
+  const verificationLabel = fixture.power
+    ? authoritative
+      ? "Mfr power"
+      : "Sourced"
+    : "Need watts";
+  const profileTitle = fixture.profiles
+    .map((profile) => `${profile.fileName} · ${profile.mode || "default"} · ${profile.channels} ch`)
+    .join("\n");
+  return (
+    <div className="fixture-result-row catalog-result-row" role="listitem">
+      <span className="catalog-mark" aria-label="ChamSys catalog fixture">CS</span>
+      <div className="fixture-identity" title={profileTitle}>
+        <strong>{fixture.manufacturer} <span>{fixture.model}</span></strong>
+        <small>{fixture.category} · {fixture.profiles.length} profile{fixture.profiles.length === 1 ? "" : "s"} · {channelLabel}</small>
+      </div>
+      <div className="fixture-electrical technical">
+        <strong>{fixture.power ? `${fixture.power.maxPowerW} W` : "— W"}</strong>
+        <small>
+          {fixture.power
+            ? fixture.power.minReportedPowerW !== fixture.power.maxPowerW
+              ? `${fixture.power.minReportedPowerW}–${fixture.power.maxPowerW} reported`
+              : "max input"
+            : "not published"}
+        </small>
+      </div>
+      <div className={`verification ${fixture.power ? authoritative ? "verified" : "estimated" : "missing-power"}`}>
+        <span>{fixture.power ? authoritative ? "✓" : "!" : "?"}</span>{verificationLabel}
+      </div>
+      <a className="source-link" href={fixture.power?.sourceUrl ?? sourceUrl} target="_blank" rel="noreferrer">
+        {fixture.power ? "Power" : "ChamSys"}
+      </a>
+      <button type="button" className="button primary add-button" onClick={() => onAdd(fixture)}>
+        {fixture.power ? "Add" : "Power"}
+      </button>
+    </div>
   );
 }
 
