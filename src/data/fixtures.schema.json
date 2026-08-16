@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wattpatch.local/fixtures.schema.json",
+  "title": "WattPatch fixture library",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id", "manufacturer", "model", "category", "maxPowerW",
+      "ratedCurrentA", "ratedCurrentVoltageV", "maxVA", "supportedVoltage",
+      "powerFactor", "inrushCurrentA", "lampCount", "lampWattage",
+      "internalBasePowerW", "removableLamps", "partialLoadVerified",
+      "sourceUrl", "verificationDate", "status", "estimationNote"
+    ],
+    "properties": {
+      "id": { "type": "string", "minLength": 1 },
+      "manufacturer": { "type": "string", "minLength": 1 },
+      "model": { "type": "string", "minLength": 1 },
+      "category": { "type": "string", "minLength": 1 },
+      "maxPowerW": { "type": "number", "exclusiveMinimum": 0 },
+      "ratedCurrentA": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+      "ratedCurrentVoltageV": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+      "maxVA": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+      "supportedVoltage": { "type": "string", "minLength": 1 },
+      "powerFactor": { "type": ["number", "null"], "exclusiveMinimum": 0, "maximum": 1 },
+      "inrushCurrentA": { "type": ["number", "null"], "minimum": 0 },
+      "lampCount": { "type": ["integer", "null"], "minimum": 0 },
+      "lampWattage": { "type": ["number", "null"], "minimum": 0 },
+      "internalBasePowerW": { "type": ["number", "null"], "minimum": 0 },
+      "removableLamps": { "type": "boolean" },
+      "partialLoadVerified": { "type": "boolean" },
+      "sourceUrl": {
+        "anyOf": [
+          { "const": "" },
+          { "type": "string", "format": "uri" }
+        ]
+      },
+      "verificationDate": { "type": "string", "format": "date" },
+      "status": { "enum": ["verified", "estimated"] },
+      "estimationNote": { "type": ["string", "null"] }
+    }
+  }
+}

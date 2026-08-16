@@ -1,0 +1,36 @@
+name: Submit a fixture
+description: Propose a sourced fixture record for WattPatch.
+title: "Fixture: "
+labels: [fixture-data]
+body:
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Exact model
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Manufacturer source URL
+      description: Link to an official specification page, manual or data sheet.
+    validations:
+      required: true
+  - type: textarea
+    id: electrical
+    attributes:
+      label: Electrical specifications
+      description: Include maximum watts, rated amperes or VA, supported voltage, power factor and inrush current when documented.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: State which values are exact, unavailable or estimated. Do not infer undocumented values.

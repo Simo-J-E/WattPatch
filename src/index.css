@@ -1,0 +1,1682 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-synthesis: none;
+  --background: #0b0d0f;
+  --panel: #13171a;
+  --raised: #191e22;
+  --border: #30363b;
+  --border-strong: #465059;
+  --text: #f3f4f4;
+  --secondary: #9aa3a9;
+  --selected: #5db3d8;
+  --safe: #45b36b;
+  --warning: #e0a43a;
+  --danger: #d95c5c;
+  --header-height: 52px;
+  --mobile-nav-height: 58px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+select,
+input[type="checkbox"],
+input[type="file"] {
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--selected);
+  outline-offset: 2px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+a {
+  color: var(--selected);
+}
+
+.technical {
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.wattpatch-shell {
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: var(--header-height);
+  padding: 0 8px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border: 1px solid var(--selected);
+  border-radius: 4px;
+  color: var(--selected);
+  font: 500 12px/1 "IBM Plex Mono", monospace;
+}
+
+.project-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+  height: 36px;
+  padding: 0 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--raised);
+  color: var(--text);
+  text-align: left;
+}
+
+.project-button:hover {
+  border-color: var(--border-strong);
+}
+
+.project-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-meta,
+.offline-state,
+.header-export {
+  display: none;
+}
+
+.offline-state {
+  align-items: center;
+  gap: 6px;
+  color: var(--secondary);
+  font-size: 12px;
+}
+
+.offline-state span {
+  color: var(--safe);
+}
+
+.offline-state.offline span {
+  color: var(--warning);
+}
+
+.desktop-tabs {
+  display: none;
+}
+
+.app-content {
+  width: 100%;
+  padding: 8px 8px 180px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 17px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 60px;
+  padding: 8px 0 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-heading > div:first-child {
+  min-width: 0;
+}
+
+.section-heading p {
+  margin-top: 3px;
+  color: var(--secondary);
+  font-size: 13px;
+}
+
+.compact-heading {
+  min-height: 52px;
+}
+
+.heading-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.button,
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--raised);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button:hover,
+.icon-button:hover {
+  border-color: var(--border-strong);
+  background: #20262b;
+}
+
+.button.primary {
+  border-color: #397a95;
+  background: #17485e;
+  color: #f4fbff;
+}
+
+.button.primary:hover {
+  background: #1c5872;
+}
+
+.button.danger {
+  color: #ffb8b8;
+}
+
+.button.danger:hover {
+  border-color: var(--danger);
+  background: #321b1d;
+}
+
+.icon-button {
+  width: 44px;
+  padding: 0;
+  font-size: 22px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 44px;
+  min-width: 0;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--background);
+  color: var(--text);
+}
+
+input::placeholder {
+  color: #737d84;
+}
+
+label > span:first-child,
+.lock-select > span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--secondary);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.input-unit {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--background);
+  overflow: hidden;
+}
+
+.input-unit input {
+  height: 42px;
+  border: 0;
+  border-radius: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.input-unit b {
+  flex: 0 0 auto;
+  padding: 0 10px 0 4px;
+  color: var(--secondary);
+  font: 500 12px/1 "IBM Plex Mono", monospace;
+}
+
+.supply-settings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.reserve-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  grid-column: 1 / -1;
+  min-height: 40px;
+  padding: 8px;
+  border-left: 2px solid var(--selected);
+  background: var(--panel);
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.reserve-note span {
+  color: var(--selected);
+  font: 500 13px/1 "IBM Plex Mono", monospace;
+}
+
+.circuit-config-list,
+.plan-circuit-list,
+.selected-list {
+  display: grid;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.circuit-config-row,
+.plan-circuit,
+.selected-row,
+.unassigned-panel,
+.solutions-panel {
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--panel);
+}
+
+.circuit-config-row {
+  padding: 10px;
+  border-left-width: 3px;
+}
+
+.status-within {
+  border-left-color: var(--safe);
+}
+
+.status-low,
+.status-planning-over {
+  border-left-color: var(--warning);
+}
+
+.status-breaker-over {
+  border-left-color: var(--danger);
+}
+
+.status-disabled {
+  border-left-color: var(--border-strong);
+  opacity: 0.72;
+}
+
+.circuit-row-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(100px, 0.6fr);
+  gap: 8px;
+}
+
+.circuit-name-field {
+  grid-column: 1 / -1;
+}
+
+.circuit-name-field input {
+  font-weight: 600;
+}
+
+.toggle-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding-top: 16px;
+}
+
+.toggle-field input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--selected);
+}
+
+.toggle-field span {
+  margin: 0;
+  color: var(--text);
+  font-size: 13px;
+  text-transform: none;
+}
+
+.circuit-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.metric {
+  min-width: 0;
+  padding: 7px 8px;
+  background: var(--raised);
+}
+
+.metric span {
+  display: block;
+  overflow: hidden;
+  color: var(--secondary);
+  font-size: 10px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.capacity-wrap {
+  margin-top: 10px;
+}
+
+.capacity-track {
+  position: relative;
+  height: 9px;
+  border: 1px solid var(--border);
+  background: var(--background);
+  overflow: hidden;
+}
+
+.capacity-fill {
+  height: 100%;
+  background: var(--safe);
+}
+
+.capacity-fill.low,
+.capacity-fill.planning-over {
+  background: var(--warning);
+}
+
+.capacity-fill.breaker-over {
+  background: var(--danger);
+}
+
+.capacity-fill.disabled {
+  background: var(--border-strong);
+}
+
+.planning-marker {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  background: var(--text);
+}
+
+.capacity-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--secondary);
+  font-size: 9px;
+}
+
+.circuit-row-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.status-message {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.status-message > span:first-child {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font: 500 11px/1 "IBM Plex Mono", monospace;
+}
+
+.status-message.within {
+  color: var(--safe);
+}
+
+.status-message.low,
+.status-message.planning-over {
+  color: var(--warning);
+}
+
+.status-message.breaker-over {
+  color: var(--danger);
+}
+
+.row-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.row-actions .button {
+  flex: 1;
+}
+
+.warning-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--warning);
+  font-size: 11px;
+}
+
+.safety-notice {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--warning);
+  background: var(--panel);
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.safety-notice > span {
+  color: var(--warning);
+  font: 600 13px/1.4 "IBM Plex Mono", monospace;
+}
+
+.desktop-split {
+  display: grid;
+  gap: 8px;
+}
+
+.fixture-library,
+.selected-fixtures {
+  min-width: 0;
+}
+
+.fixture-search-block {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 20;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  background: var(--background);
+}
+
+.search-label input {
+  height: 48px;
+  border-color: var(--border-strong);
+  font-size: 15px;
+}
+
+.filter-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.filter-tabs button {
+  min-width: 0;
+  min-height: 40px;
+  padding: 0 4px;
+  border: 0;
+  background: var(--panel);
+  color: var(--secondary);
+  font-size: 11px;
+}
+
+.filter-tabs button.active {
+  box-shadow: inset 0 -2px var(--selected);
+  color: var(--text);
+}
+
+.fixture-results {
+  display: grid;
+  gap: 1px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.fixture-result-row {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 64px;
+  grid-template-areas:
+    "fav identity add"
+    "fav electrical add"
+    "fav verification source";
+  align-items: center;
+  min-width: 0;
+  padding: 6px;
+  background: var(--panel);
+}
+
+.fixture-result-row:hover {
+  background: var(--raised);
+}
+
+.favourite-button {
+  grid-area: fav;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #667078;
+  font-size: 18px;
+}
+
+.favourite-button.selected {
+  color: var(--warning);
+}
+
+.fixture-identity {
+  grid-area: identity;
+  min-width: 0;
+}
+
+.fixture-identity strong {
+  display: block;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fixture-identity strong span {
+  color: var(--text);
+}
+
+.fixture-identity small,
+.fixture-electrical small,
+.assigned-row small {
+  display: block;
+  margin-top: 2px;
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.fixture-electrical {
+  grid-area: electrical;
+  display: flex;
+  gap: 8px;
+  color: var(--secondary);
+  font-size: 11px;
+}
+
+.fixture-electrical strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.fixture-electrical small {
+  margin: 0;
+  font-size: inherit;
+}
+
+.verification {
+  grid-area: verification;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--safe);
+  font-size: 10px;
+}
+
+.verification.estimated,
+.estimated-text {
+  color: var(--warning);
+}
+
+.verified-text {
+  color: var(--safe);
+}
+
+.source-link {
+  grid-area: source;
+  justify-self: end;
+  padding: 7px 4px;
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.add-button {
+  grid-area: add;
+  align-self: stretch;
+  width: 60px;
+  min-height: 44px;
+  padding: 0 8px;
+}
+
+.empty-state,
+.empty-circuit {
+  padding: 24px 12px;
+  background: var(--panel);
+  color: var(--secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.selected-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  padding: 10px;
+}
+
+.selected-title {
+  min-width: 0;
+}
+
+.selected-title strong {
+  display: block;
+  overflow: hidden;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.selected-title span {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+.quantity-control {
+  display: grid;
+  grid-template-columns: 44px 52px 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.quantity-control button,
+.quantity-control input {
+  width: 100%;
+  height: 42px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--raised);
+  color: var(--text);
+  text-align: center;
+}
+
+.quantity-control input {
+  border-right: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.selected-values {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--secondary);
+  font-size: 12px;
+}
+
+.lock-select {
+  min-width: 0;
+}
+
+.lock-select select {
+  height: 40px;
+}
+
+.assignment-count {
+  align-self: end;
+  padding-bottom: 10px;
+  color: var(--secondary);
+  font-size: 10px;
+  text-align: right;
+}
+
+.lamp-control {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 6px;
+  padding: 8px;
+  border-left: 2px solid var(--warning);
+  background: var(--raised);
+}
+
+.lamp-control label {
+  max-width: 180px;
+}
+
+.lamp-control p {
+  color: var(--warning);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.delete-link {
+  grid-column: 1 / -1;
+  justify-self: start;
+  min-height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #e98d8d;
+  font-size: 12px;
+}
+
+.plan-circuit {
+  padding: 10px;
+  border-left-width: 3px;
+}
+
+.plan-circuit-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.plan-circuit-header > div:first-child {
+  min-width: 0;
+}
+
+.plan-circuit-header h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plan-circuit-header span {
+  display: block;
+  margin-top: 3px;
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.plan-load {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
+.plan-load strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.assigned-items {
+  display: grid;
+  gap: 1px;
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.assigned-row {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 4px 8px;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+  background: var(--raised);
+}
+
+.assigned-row > div:nth-child(2) {
+  min-width: 0;
+}
+
+.assigned-row strong {
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.drag-handle {
+  color: var(--secondary);
+  cursor: grab;
+}
+
+.assigned-actions {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.assigned-actions button,
+.assigned-actions select {
+  width: 100%;
+  min-height: 40px;
+  padding: 0 5px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.assigned-actions label > span:first-child {
+  margin: 0;
+}
+
+.unassigned-panel {
+  margin-top: 8px;
+  padding: 10px;
+  border-left: 3px solid var(--warning);
+}
+
+.solutions-panel {
+  margin-top: 12px;
+  border-left: 3px solid var(--danger);
+}
+
+.solutions-heading {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.solutions-heading p {
+  margin-top: 5px;
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.solutions-panel ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: solution;
+}
+
+.solutions-panel li {
+  counter-increment: solution;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 2px 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.solutions-panel li::before {
+  content: counter(solution);
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border-strong);
+  color: var(--secondary);
+  font: 500 11px/1 "IBM Plex Mono", monospace;
+}
+
+.solutions-panel li:last-child {
+  border-bottom: 0;
+}
+
+.solutions-panel li strong {
+  font-size: 12px;
+}
+
+.solutions-panel li span {
+  color: var(--secondary);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.mobile-summary {
+  position: fixed;
+  right: 0;
+  bottom: var(--mobile-nav-height);
+  left: 0;
+  z-index: 35;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border-top: 3px solid var(--safe);
+  background: var(--border);
+}
+
+.mobile-summary.warning {
+  border-top-color: var(--warning);
+}
+
+.mobile-summary.danger {
+  border-top-color: var(--danger);
+}
+
+.mobile-summary .metric {
+  padding: 5px 7px;
+}
+
+.mobile-summary .metric span {
+  font-size: 8px;
+}
+
+.mobile-summary .metric strong {
+  font-size: 11px;
+}
+
+.summary-status {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 28px;
+  padding: 4px 8px;
+  background: var(--panel);
+  color: var(--safe);
+  font-size: 10px;
+}
+
+.warning .summary-status {
+  color: var(--warning);
+}
+
+.danger .summary-status {
+  color: var(--danger);
+}
+
+.summary-status span {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.mobile-nav {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  height: var(--mobile-nav-height);
+  border-top: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.mobile-nav button,
+.desktop-tabs button {
+  position: relative;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mobile-nav button.active,
+.desktop-tabs button.active {
+  color: var(--text);
+}
+
+.mobile-nav button.active::after,
+.desktop-tabs button.active::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+  left: 12px;
+  height: 2px;
+  background: var(--selected);
+}
+
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  align-items: end;
+  padding: 8px;
+  background: rgb(0 0 0 / 72%);
+}
+
+.dialog {
+  width: 100%;
+  max-height: calc(100vh - 16px);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  background: var(--panel);
+  box-shadow: 0 16px 44px rgb(0 0 0 / 55%);
+  overflow: auto;
+}
+
+.dialog-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+  padding: 0 8px 0 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.dialog-body {
+  padding: 12px;
+}
+
+.dialog-copy,
+.form-note {
+  color: var(--secondary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.custom-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.field-wide {
+  grid-column: 1 / -1;
+}
+
+.project-create {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.file-button,
+.file-export {
+  position: relative;
+  cursor: pointer;
+}
+
+.file-button input,
+.file-export input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.project-list {
+  display: grid;
+  gap: 1px;
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 6px;
+  align-items: center;
+  padding: 6px;
+  background: var(--raised);
+}
+
+.project-row.selected {
+  box-shadow: inset 3px 0 var(--selected);
+}
+
+.project-select {
+  min-width: 0;
+  min-height: 48px;
+  padding: 5px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+}
+
+.project-select strong,
+.project-select span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-select span {
+  margin-top: 3px;
+  color: var(--secondary);
+  font-size: 10px;
+}
+
+.export-list {
+  display: grid;
+  gap: 1px;
+  border: 1px solid var(--border);
+  background: var(--border);
+}
+
+.export-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 60px;
+  padding: 8px 12px;
+  border: 0;
+  background: var(--raised);
+  color: var(--text);
+  text-align: left;
+}
+
+.export-row:hover {
+  background: #20262b;
+}
+
+.export-row span {
+  margin-top: 3px;
+  color: var(--secondary);
+  font-size: 11px;
+}
+
+.toast {
+  position: fixed;
+  right: 8px;
+  bottom: 170px;
+  z-index: 120;
+  max-width: calc(100vw - 16px);
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--selected);
+  border-radius: 4px;
+  background: var(--raised);
+  box-shadow: 0 10px 28px rgb(0 0 0 / 45%);
+  color: var(--text);
+  font-size: 12px;
+}
+
+@media (min-width: 520px) {
+  .supply-settings {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .circuit-row-main {
+    grid-template-columns: minmax(170px, 1.5fr) minmax(100px, 0.7fr) minmax(100px, 0.6fr) auto;
+  }
+
+  .circuit-name-field {
+    grid-column: auto;
+    align-self: end;
+  }
+
+  .fixture-result-row {
+    grid-template-columns: 44px minmax(0, 1fr) 110px 90px 54px 64px;
+    grid-template-areas: "fav identity electrical verification source add";
+    min-height: 60px;
+  }
+
+  .fixture-electrical {
+    display: block;
+    text-align: right;
+  }
+
+  .fixture-electrical small {
+    margin-top: 2px;
+  }
+
+  .selected-row {
+    grid-template-columns: minmax(180px, 1.5fr) auto minmax(100px, 0.7fr);
+    align-items: center;
+  }
+
+  .lock-select {
+    grid-column: 1 / 3;
+  }
+
+  .assignment-count {
+    grid-column: 3;
+  }
+
+  .project-create {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: end;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    --tabs-height: 44px;
+  }
+
+  .app-header {
+    padding: 0 16px;
+  }
+
+  .brand {
+    width: 160px;
+  }
+
+  .project-button {
+    width: min(320px, 30vw);
+  }
+
+  .header-meta {
+    display: block;
+    margin-left: auto;
+    color: var(--secondary);
+    font-size: 11px;
+  }
+
+  .offline-state,
+  .header-export {
+    display: flex;
+  }
+
+  .header-export,
+  .app-header .button {
+    min-height: 36px;
+  }
+
+  .desktop-tabs {
+    position: sticky;
+    top: var(--header-height);
+    z-index: 28;
+    display: flex;
+    align-items: stretch;
+    height: var(--tabs-height);
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+
+  .desktop-tabs button {
+    width: 120px;
+  }
+
+  .desktop-status {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: auto;
+    color: var(--safe);
+    font-size: 11px;
+  }
+
+  .desktop-status.warning {
+    color: var(--warning);
+  }
+
+  .desktop-status.danger {
+    color: var(--danger);
+  }
+
+  .app-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 16px 24px 32px;
+  }
+
+  .button {
+    min-height: 36px;
+  }
+
+  input,
+  select,
+  .input-unit {
+    height: 38px;
+  }
+
+  .input-unit input {
+    height: 36px;
+  }
+
+  .desktop-split {
+    grid-template-columns: minmax(0, 1.08fr) minmax(390px, 0.92fr);
+    gap: 16px;
+    align-items: start;
+  }
+
+  .selected-fixtures {
+    position: sticky;
+    top: calc(var(--header-height) + var(--tabs-height) + 16px);
+    max-height: calc(100vh - var(--header-height) - var(--tabs-height) - 32px);
+    padding: 0 12px 12px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    overflow: auto;
+  }
+
+  .fixture-search-block {
+    top: calc(var(--header-height) + var(--tabs-height));
+  }
+
+  .fixture-result-row {
+    grid-template-columns: 36px minmax(0, 1fr) 94px 78px 48px 56px;
+  }
+
+  .favourite-button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .add-button {
+    width: 52px;
+    min-height: 36px;
+  }
+
+  .filter-tabs button {
+    min-height: 34px;
+  }
+
+  .search-label input {
+    height: 44px;
+  }
+
+  .circuit-config-row {
+    display: grid;
+    grid-template-columns: minmax(430px, 1.05fr) minmax(430px, 1fr);
+    gap: 0 16px;
+    align-items: center;
+  }
+
+  .circuit-row-main {
+    grid-column: 1;
+  }
+
+  .circuit-metrics {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .capacity-wrap,
+  .circuit-row-footer,
+  .warning-line {
+    grid-column: 1 / -1;
+  }
+
+  .circuit-row-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .row-actions .button {
+    flex: none;
+  }
+
+  .plan-circuit {
+    display: grid;
+    grid-template-columns: minmax(270px, 0.8fr) minmax(420px, 1.2fr);
+    gap: 0 16px;
+  }
+
+  .plan-circuit-header,
+  .plan-circuit > .capacity-wrap,
+  .plan-circuit > .status-message,
+  .plan-circuit > .warning-line {
+    grid-column: 1;
+  }
+
+  .plan-circuit .assigned-items {
+    grid-column: 2;
+    grid-row: 1 / 5;
+    margin-top: 0;
+  }
+
+  .assigned-row {
+    grid-template-columns: 24px minmax(180px, 1fr) minmax(260px, 0.9fr);
+  }
+
+  .assigned-actions {
+    grid-column: 3;
+  }
+
+  .mobile-summary,
+  .mobile-nav {
+    display: none;
+  }
+
+  .dialog-backdrop {
+    place-items: center;
+  }
+
+  .dialog {
+    max-width: 520px;
+    max-height: min(760px, calc(100vh - 40px));
+  }
+
+  .dialog-wide {
+    max-width: 800px;
+  }
+
+  .toast {
+    bottom: 24px;
+    right: 24px;
+  }
+}
+
+@media (max-width: 389px) {
+  .brand > span:last-child {
+    display: none;
+  }
+
+  .brand {
+    flex: 0 0 32px;
+  }
+
+  .project-button {
+    flex: 1;
+  }
+
+  .section-heading {
+    gap: 8px;
+  }
+
+  .section-heading .button {
+    padding: 0 8px;
+  }
+
+  .filter-tabs button {
+    font-size: 9px;
+  }
+
+  .quantity-control {
+    grid-template-columns: 40px 46px 40px;
+  }
+
+  .custom-form {
+    grid-template-columns: 1fr;
+  }
+
+  .field-wide {
+    grid-column: auto;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-select {
+    grid-column: 1 / -1;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  body,
+  .wattpatch-shell {
+    background: #fff;
+    color: #111;
+  }
+
+  .app-header,
+  .desktop-tabs,
+  .mobile-nav,
+  .mobile-summary,
+  .heading-actions,
+  .assigned-actions,
+  .drag-handle,
+  .toast,
+  .dialog-backdrop,
+  .unassigned-panel {
+    display: none !important;
+  }
+
+  .app-content {
+    max-width: none;
+    padding: 0;
+  }
+
+  .power-plan-view > .section-heading {
+    display: flex;
+  }
+
+  .plan-circuit,
+  .solutions-panel,
+  .safety-notice {
+    break-inside: avoid;
+    border-color: #888;
+    background: #fff;
+  }
+
+  .plan-circuit-list {
+    gap: 10px;
+  }
+
+  .assigned-items,
+  .assigned-row {
+    border-color: #bbb;
+    background: #fff;
+  }
+
+  .assigned-row,
+  .plan-circuit-header span,
+  .status-message,
+  .warning-line,
+  .safety-notice {
+    color: #333;
+  }
+
+  .capacity-track {
+    border-color: #777;
+  }
+}
